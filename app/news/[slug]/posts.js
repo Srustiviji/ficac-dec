@@ -2,6 +2,8 @@
 import React, { useEffect, useState } from 'react'
 import { Container , Button } from 'react-bootstrap';
 import Link from 'next/link';
+import Header from '../../../components/Shared/Header'
+import Footer from '../../../components/Shared/Footer'
 
 const Posts = ({ slug }) => {
 
@@ -32,7 +34,7 @@ const Posts = ({ slug }) => {
   return (
     <div>
       {/* {slug} */}
-
+         <Header />
       <Container className='p-5 shadow-sm'>
         {data.map((post) => (
           <div key={post.id}  >
@@ -61,6 +63,7 @@ const Posts = ({ slug }) => {
           </div>
         ))}
       </Container>
+      <Footer />
     </div>
   )
 }
