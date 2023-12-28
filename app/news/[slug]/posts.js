@@ -34,7 +34,7 @@ const Posts = ({ slug }) => {
   return (
     <div>
       {/* {slug} */}
-         <Header />
+         {/* <Header /> */}
       <Container className='p-5 shadow-sm col-lg-8 position-relative' >
         {data.map((post) => (
           <div key={post.id}  >
