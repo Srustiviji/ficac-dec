@@ -33,7 +33,7 @@ const NewsList = () => {
 
   return (
 
-    <Container className='px-5'>
+    <Container className=''>
     
 
     <Row className='d-flex flex-lg-row flex-column mb-4 gap-5 mx-4' >
