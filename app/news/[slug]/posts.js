@@ -2,7 +2,6 @@
 import React, { useEffect, useState } from 'react'
 import { Container , Button } from 'react-bootstrap';
 import Link from 'next/link';
-import Header from '../../../components/Shared/Header'
 import Footer from '../../../components/Shared/Footer'
 
 const Posts = ({ slug }) => {
