@@ -35,7 +35,7 @@ const Posts = ({ slug }) => {
     <div>
       {/* {slug} */}
          <Header />
-      <Container className='p-5 shadow-sm'>
+      <Container className='p-5 shadow-sm col-lg-8 position-relative' >
         {data.map((post) => (
           <div key={post.id}  >
             <div className='' >
@@ -51,7 +51,7 @@ const Posts = ({ slug }) => {
             <div className=''>
               <Link href="/news">
                   <Button
-                    className='rounded-2 py-2 px-4 px-lg-2 d-inline-block text-white'
+                    className='rounded-2 py-2 px-5 px-lg-2 d-inline-block text-white'
                     style={{ backgroundColor: "#001C79" }}
                   >
                   Go Back

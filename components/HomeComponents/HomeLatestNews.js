@@ -11,6 +11,24 @@ const HomeLatestNews = () => {
 
   const [isData, setIsData] = useState([]);
 
+  const customDotListStyle = {
+    position: 'absolute',
+    bottom: '0',
+    display: 'flex',
+    justifyContent: 'center',
+    width: '100%',
+    padding: '10px 20px',
+  };
+
+  const customDotStyle = {
+    width: '10px',
+    height: '10px',
+    margin: '10px 10px',
+    backgroundColor: '#810100',
+    borderRadius: '50%',
+    cursor: 'pointer',
+  };
+
   const fetchData = async () => {
     try {
       // let result = await fetch(`https://ficac.ivistaz.co/wp-json/wp/v2/directors?_embed&per_page=100`);
@@ -44,7 +62,7 @@ const HomeLatestNews = () => {
 
   return (
     <>
-      <Container>
+      <Container className=''>
 
         <Row>
           <h3 className='fs-1 d-flex justify-content-center' style={{ color: "#810100" }}>
@@ -67,6 +85,9 @@ const HomeLatestNews = () => {
           showArrows={false}
           dotListClass="custom-dot-list-style"
           itemClass="carousel-item-padding-40-px"
+          customDotListClass='custom-dot-list-style'
+          customDotStyle={customDotStyle}
+          customDotListStyle={customDotListStyle}
 
         >
 
@@ -75,7 +96,7 @@ const HomeLatestNews = () => {
             <div key={news.id}>
 
 
-              <Row className='d-flex flex-row flex-column m-2'>
+              <Row className='d-flex flex-lg-row flex-column m-2'>
                 <Col
                   className='bg-white p-0'
                 >
@@ -85,7 +106,7 @@ const HomeLatestNews = () => {
                     width="100%"
                     fluid
                     className='d-lg-block d-none'
-                    style={{ height: "370px" }}
+                    style={{ height: "350px" }}
                   />
 
                   <Image
@@ -97,7 +118,7 @@ const HomeLatestNews = () => {
                   />
                 </Col>
                 <Col
-                  className='p-2' style={{ backgroundColor: "#001C79" }}>
+                  className='p-3' style={{ backgroundColor: "#001C79" }}>
                   <p dangerouslySetInnerHTML={{ __html: news.title.rendered }}
                     className='text-white' />
                   <p
