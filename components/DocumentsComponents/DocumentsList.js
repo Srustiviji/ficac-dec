@@ -33,7 +33,7 @@ const DocumentsList = () => {
                     {data.map((items) => (
                         <div key={items}>
                             {/* <Col className='col-4'></Col> */}
-                            <Col className=' mx-lg-5 px-lg-4 d-flex flex-lg-row flex-column flex-wrap justify-content-lg-between'
+                            <Col className=' mx-lg-5 px-lg-4 d-flex flex-lg-row flex-column flex-wrap justify-content-lg-between justify-content-center align-content-center align-items-center'
                                 style={{ fontSize: "23px", color: "#001C79" }}>
                                 <p>
                                     <b>{items.title.rendered}</b>

@@ -1,16 +1,19 @@
 import React from 'react'
-import { Container , Col , Row} from 'react-bootstrap'
+import {  Col , Row ,} from 'react-bootstrap'
+import { Container} from 'react-bootstrap'
+
 
 const ContactUsContent = () => {
   return (
-   <Container className='p-lg-5'>
+    <Container fluid className='p-0'>
+   <Container className='p-lg-5 m-0 p-0'>
     <Col className='banner-text-container text-white px-lg-5 '>
     <p className='mb-0'>
     Contact Us 
         </p>
     </Col>
 
-    <Row className='py-5'>
+    <Row className='py-5 px-5'>
         <Col className='col-5 d-lg-flex d-none'></Col>
     <Col className='px-3 py-2'>
     <h3>
@@ -22,6 +25,7 @@ const ContactUsContent = () => {
     </Col>
     </Row>
    
+</Container>
 </Container>
   )
 }
