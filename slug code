@@ -1,0 +1,51 @@
+'use client'
+import React, { useState, useEffect } from 'react';
+import { Image } from 'react-bootstrap';
+
+const EventGalleryFront = () => {
+  const [data, setData] = useState([]);
+
+  const Acf_URL = 'https://ficac.ivistaz.co/wp-json/wp/v2/events_gallery?_embed?slug=latin-america-conference-honduras';
+
+  const fetchPosts = async () => {
+    try {
+      const result = await fetch(Acf_URL);
+
+      if (!result.ok) {
+        throw new Error(`HTTP error! Status: ${result.status}`);
+      }
+
+      const postsData = await result.json();
+      console.log('API Response:', postsData);
+
+      if (typeof postsData === 'object') {
+        setData(postsData);
+      }
+    } catch (error) {
+      console.error('Error fetching posts', error);
+    }
+  };
+
+  useEffect(() => {
+    fetchPosts();
+  }, []);
+
+  return (
+    <div>
+      {data.map((item) => (
+        <div key={item.id}>
+          <h3>{item.title.rendered}</h3>
+          {/* Assuming 'events_photos' is an array */}
+          {item.acf.photo_gallery.events_photos[0].map((photo) => (
+            <div key={photo.id}>
+              <p>{photo.title}</p>
+              <Image src={photo.full_image_url} alt="" />
+            </div>
+          ))}
+        </div>
+      ))}
+    </div>
+  );
+};
+
+export default EventGalleryFront;
