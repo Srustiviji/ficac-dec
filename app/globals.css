@@ -140,6 +140,11 @@ i.bi.bi-chevron-up {
     z-index: 1;
   }
 }
+
+.modal-dialog {
+  max-width: 80%; /* Set the max-width as needed */
+  margin: 1.75rem auto; /* Adjust margin as needed */
+}
 /* ::marker{
   color:#001C79 ;
   size: 18px;

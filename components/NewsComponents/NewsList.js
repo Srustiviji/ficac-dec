@@ -33,10 +33,10 @@ const NewsList = () => {
 
   return (
 
-    <Container>
+    <Container className='px-5'>
     
 
-    <Row className='d-flex flex-lg-row flex-column mb-4 gap-5 mx-4 ms-lg-5' >
+    <Row className='d-flex flex-lg-row flex-column mb-4 gap-5 mx-4' >
     {data.map((post) => (
         <Col key={post.id}
          className='text-center d-flex flex-column align-self-stretch mt-lg-4 mt-3 shadow p-0 mb-5 bg-white rounded' 
