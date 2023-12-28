@@ -150,7 +150,7 @@ const DesktopHeader = () => {
                           className="text-decoration-none"
                         >
                           <h6 className="text-white header-text">
-                            Vision & Mission
+                          Mission & Vision 
                           </h6>
                         </Link>
                       </div>

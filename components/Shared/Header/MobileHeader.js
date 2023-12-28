@@ -161,7 +161,7 @@ const MobileHeader = () => {
            </Link>
            <Link href="/about/mission-vision/" className="text-decoration-none">
            <div className="header p-2">
-           <h6 className="ms-4">Vission&Misssion</h6>
+           <h6 className="ms-4">Misssion & Vission</h6>
            </div>
            </Link>
            <Link href="/about/executive/" className="text-decoration-none">
