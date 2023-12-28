@@ -71,6 +71,7 @@ const BoardOfDirectorsList = () => {
         show={showPopup}
         onHide={closePopup}
         className='text-white'
+        
       >
         <div style={{ backgroundColor: "#810100" }} className='text-white'>
           <Modal.Header>

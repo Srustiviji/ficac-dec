@@ -288,7 +288,7 @@ const DesktopHeader = () => {
               className="position-absolute top-0 bottom-0 end-0 w-25 h-100 gap-3"
               style={{ backgroundColor: "#001C79" }}
             >
-              <p className="text-white fs-4 align-content-right" onClick={toggleMenuClick}>
+              <p className="text-white fs-4 align-content-right pt-2 d-flex justify-content-end" onClick={toggleMenuClick}>
                 <i class="bi bi-x-circle"></i>
               </p>
               {/* Left Side Menu */}
@@ -298,7 +298,7 @@ const DesktopHeader = () => {
               <div className="">
                 <div
                   onClick={handleOnclicknav1}
-                  className="d-flex flex-row bg-white align-items-center gap-1 p-2"
+                  className="d-flex flex-row bg-white align-items-center gap-1 p-3 border-bottom-1 border-black"
                 >
                   <Link href="/ficac-committees" className="text-decoration-none">
                   <div>
@@ -319,9 +319,9 @@ const DesktopHeader = () => {
                   <div>
                     <div
                       onClick={handleOnclicknestednav}
-                      className="top mb-0 d-flex  header align-items-center"
+                      className=" headerOffcanvas top mb-0 d-flex  header align-items-center"
                     >
-                      <div className="ms-4 p-2">
+                      <div className="ms-4 p-2 pt-3">
                         <h6> List of committees </h6>
                       </div>
                       <div className="b-0 m-0 text-white justify-content-center  align-items-center">
@@ -334,33 +334,39 @@ const DesktopHeader = () => {
                     </div>
                     {isOnclicknestednav && (
                 <div className="top  justify-content-center  align-items-center">
+                  <div className="headerOffcanvas">
                   <Link href="/ficac-committees/central-committees/" className="text-decoration-none">
-                  <div className="header p-2">
+                  <div className="header p-2 pt-3">
                     <h6 className="ms-5"> Central Committees </h6>
                   </div>
                   </Link>
+                  </div>
+                  
 
+                  <div className="headerOffcanvas">
                   <Link href="/ficac-committees/regions-committees" className="text-decoration-none">
-                  <div className="header p-2">
+                  <div className="header p-2 pt-3">
                   <h6 className="ms-5"> Regions Committees </h6>
                   </div>
                   </Link>
+                  </div>
                 </div>
+                
                 
               )}
                     <div
                       // onClick={handleOnclicknav1}
-                      className="top mb-0 d-flex  header align-items-center p-2"
+                      className="headerOffcanvas top mb-0 d-flex  header align-items-center p-2"
                     >
-                      <div className="ms-4">
+                      <div className="ms-4 pt-2">
                         <h6> Their Objective </h6>
                       </div>
                     </div>
                     <div
                       // onClick={handleOnclicknav1}
-                      className="top mb-0 d-flex  header align-items-center p-2"
+                      className="headerOffcanvas top mb-0 d-flex  header align-items-center p-2"
                     >
-                      <div className="ms-4">
+                      <div className="ms-4 pt-2">
                         <h6> Committee Members </h6>
                       </div>
                     </div>
@@ -380,7 +386,7 @@ const DesktopHeader = () => {
               )} */}
 
               {/* directory heading */}
-              <div className="d-flex flex-row  bg-white align-items-center gap-1 p-2">
+              <div className="d-flex flex-row  bg-white align-items-center gap-1 p-3">
               <Link href="/directory" className="text-decoration-none">
                 <div>
                   <h6 className="mb-0 text-center position-relative text-black ms-2">
@@ -393,11 +399,11 @@ const DesktopHeader = () => {
               {/* Documents heading */}
                 <div
                   onClick={handleOnclicknav2}
-                  className="d-flex flex-row bg-white align-items-center gap-1"
+                  className="d-flex flex-row bg-white align-items-center gap-1 p-3"
                 >
                 
                 <Link href="/documents" className="text-decoration-none">
-                <div className="p-2">
+                <div>
                     <h6 className="mb-0 text-center position-relative text-black ms-2">
                     Documents
                     </h6>
@@ -414,16 +420,16 @@ const DesktopHeader = () => {
                 {isOnclicknav2 && (
                   <div>
                     <div
-                      className="top mb-0 d-flex  header align-items-center"
+                      className=" headerOffcanvas top mb-0 d-flex  header align-items-center"
                     >
-                      <div className="p-2">
+                      <div className="p-2 pt-3">
                         <h6 className="ms-4"> FICAC Constitution  </h6>
                       </div>
                      </div>
                      <div
-                      className="top mb-0 d-flex  header align-items-center"
+                      className=" headerOffcanvas top mb-0 d-flex  header align-items-center"
                     >
-                      <div className="p-2">
+                      <div className="p-2 pt-3">
                         <h6 className="ms-4"> Member Constitution   </h6>
                       </div>
                      </div>
@@ -432,7 +438,7 @@ const DesktopHeader = () => {
 
             {/* Event gallery */}
 
-            <div className="d-flex flex-row  bg-white align-items-center gap-1 p-2">
+            <div className="d-flex flex-row  bg-white align-items-center gap-1 p-3">
                <Link href="/gallery" className="text-decoration-none">
                 <div>
                   <h6 className="mb-0 text-center position-relative text-black ms-2">

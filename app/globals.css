@@ -66,7 +66,10 @@ i.bi.bi-chevron-up {
   color: #001C79 !important;
 }
 
+.headerOffcanvas{
+  border-bottom:1px solid white;
 
+}
 
 .top {
   top: 90%!important;
