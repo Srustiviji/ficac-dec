@@ -1,5 +1,5 @@
 import React from 'react'
-import DesktopHeader from '../Shared/Header/DesktopHeader'
+import Header from '../Shared/Header'
 import Footer from '../Shared/Footer/Footer'
 import MembershipBanner from './MembershipBanner'
 import MembershipContent from './MembershipContent'
@@ -7,7 +7,7 @@ import MembershipContent from './MembershipContent'
 const index = () => {
   return (
     <>
-      <DesktopHeader />
+      <Header />
       <MembershipBanner />
       <MembershipContent />
       <Footer />

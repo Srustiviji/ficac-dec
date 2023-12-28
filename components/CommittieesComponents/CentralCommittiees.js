@@ -122,7 +122,7 @@ const CentralCommittiees = () => {
               style={{ zIndex: 3 }}
               onClick={closePopup}
             >
-              <Container className="position-relative p-0 overflow-y-scroll">
+              <Container className="position-relative p-0 overflow-y-scroll" style={{maxHeight: "90vh"}}>
                 <Col 
                 className="position-absolute top-0 end-0 p-2"
                  >

@@ -18,7 +18,7 @@ const MissionVisionContent = () => {
 
 
         <Row className='py-4 px-5'>  
-        <Col></Col> 
+        <Col className='d-lg-block d-none'></Col> 
         <Col>
          <p>
           The primary objective and mission of the International Federation of Consular Corps and Associations (FICAC) is global collaboration and unity with a focus on the promotion of peace, education, culture, international trade, economic growth, equality and inclusivity. We firmly believe that through solidarity, we can address the world’s most pressing challenges and issues that transcend borders and cultures. </p>

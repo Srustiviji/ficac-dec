@@ -3,8 +3,8 @@ import { Container , Col , Row} from 'react-bootstrap'
 
 const ContactUsContent = () => {
   return (
-   <Container className='p-5'>
-    <Col className='banner-text-container text-white px-5 '>
+   <Container className='p-lg-5'>
+    <Col className='banner-text-container text-white px-lg-5 '>
     <p className='mb-0'>
     Contact Us 
         </p>

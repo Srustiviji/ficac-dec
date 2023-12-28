@@ -132,13 +132,13 @@ const MobileHeader = () => {
            className="d-flex flex-row bg-white align-items-center gap-1"
          >
          
-         <Link href="/documents" className="text-decoration-none">
+         {/* <Link href="/about" className="text-decoration-none"> */}
          <div className="p-2">
              <h6 className="mb-0 text-center position-relative text-black ms-2">
              About
              </h6>
            </div>
-           </Link>
+           {/* </Link> */}
            <div className="b-0 m-0 text-black">
              {isOnclick ? (
                <i class="bi bi-chevron-up b-0 m-0"></i>
