@@ -1,3 +1,10 @@
+  @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+  *, body {
+    font-family: 'Roboto', sans-serif;
+  }
+
+
 .container {
   width: 1080px;
 }
@@ -81,6 +88,7 @@ i.bi.bi-chevron-up {
   .banner-text-container{
     margin-top: 0px;
     width: 100%;
+    font-size: 35px;
   }
 }
 
