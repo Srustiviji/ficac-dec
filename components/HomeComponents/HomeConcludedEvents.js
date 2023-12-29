@@ -104,7 +104,7 @@ const HomeConcludedEvents = () => {
                     />
                   </h6>
                   <p
-                    className="font12px mb-0 px-3"
+                    className="font14px mb-0 px-3"
                     style={{ height: "150px" }}
                   >
                     {post.acf.excerpt}

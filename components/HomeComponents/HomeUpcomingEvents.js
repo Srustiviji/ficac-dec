@@ -48,10 +48,10 @@ const HomeUpcomingEvents = () => {
 
 
       <Container className="pt-2 pb-3">
-        <Row className='pb-4'>
+        <Row className='pb-4 mt-4'>
           <h3
             className="fs-1 d-flex justify-content-center"
-            style={{ color: "#001C79" }}
+            style={{ color: "#810100" }}
           >
             Upcoming Events
           </h3>
@@ -92,7 +92,7 @@ const HomeUpcomingEvents = () => {
                   </Col>
                   <Col className="">
                     <p
-                      className="font12px mb-0 px-3"
+                      className="font14px mb-0 px-3"
                       style={{ height: "150px" }}
                     >
                       {post.acf.excerpt}

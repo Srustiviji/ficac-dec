@@ -64,7 +64,7 @@ const HomeLatestNews = () => {
     <>
       <Container className=''>
 
-        <Row>
+        <Row className='p-4'>
           <h3 className='fs-1 d-flex justify-content-center' style={{ color: "#810100" }}>
             Latest News
           </h3>
@@ -123,9 +123,8 @@ const HomeLatestNews = () => {
                     className='text-white' />
                   <p
                     className='text-white'
-                  >
-                    {news.acf.excerpt}
-                  </p>
+                     dangerouslySetInnerHTML={{ __html: news.acf.excerpt }}></p>
+
                   <Link href={`/news/${news.slug}`} className='text-decoration-none text-lg-center'>
                     <p className='bg-white text-black p-2 d-inline-block rounded-2'>Read More</p>
                   </Link>

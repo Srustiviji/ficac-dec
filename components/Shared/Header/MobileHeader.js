@@ -104,7 +104,7 @@ const MobileHeader = () => {
       </Container>
 
       {/* Popup Menu */}
-      <Container>
+      <Container className="position-fixed">
                 {isToggleMenuMobile && (
      <>
      <div
@@ -114,7 +114,7 @@ const MobileHeader = () => {
        {/* background onclick to close */}
      </div>
      <div
-       className="position-absolute top-0 bottom-0 end-0 w-100 h-100 gap-3"
+       className="position-absolute top-0 bottom-0 end-0 w-100 h-100 gap-3 position-fixed"
        style={{ backgroundColor: "#001C79" }}
      >
        <p className="text-white fs-4 align-content-right" onClick={toggleMenuClickMobile}>

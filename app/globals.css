@@ -58,7 +58,7 @@ i.bi.bi-chevron-up {
 }
 
 .header:hover{
-  background-color:white;
+  background-color: #d3d3d3;
     color: #001C79;
 }
 
@@ -124,6 +124,14 @@ i.bi.bi-chevron-up {
   margin-left: -80px !important;
 }
 
+.react-multi-carousel-list {
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  position: relative;
+  justify-content: center;
+}
+
 @media(max-width:767px) {
   .custom-commite-loop-post {
     margin-left: 0px !important;
@@ -145,7 +153,3 @@ i.bi.bi-chevron-up {
   max-width: 80%; /* Set the max-width as needed */
   margin: 1.75rem auto; /* Adjust margin as needed */
 }
-/* ::marker{
-  color:#001C79 ;
-  size: 18px;
-} */

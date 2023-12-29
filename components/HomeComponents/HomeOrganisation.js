@@ -27,7 +27,7 @@ const HomeOrganisation = () => {
       <Row className=' py-3'>
         <Col className=' d-flex flex-row justify-content-center'>
           <h2 className="" style={{ color: "#001C79", size: "30px" }}>
-            Recognition of the status of FICAC as NGO
+            Recognition of the status of FICAC as an NGO
           </h2>
         </Col>
       </Row>

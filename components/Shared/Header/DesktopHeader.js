@@ -27,6 +27,11 @@ const DesktopHeader = () => {
 
   const toggleMenuClick = () => {
     setIsToogleMenu(!isToggleMenu);
+    setIsOnclick(false);
+    setIsOnclick1(false);
+    setIsOnclick2(false);
+    setIsOnclick3(false);
+
   };
 
   const handleOnclick = () => {
@@ -34,6 +39,8 @@ const DesktopHeader = () => {
     setIsOnclick1(false);
     setIsOnclick2(false);
     setIsOnclick3(false);
+    setIsToogleMenu(false);
+
   };
 
   const handleOnclick1 = () => {
@@ -41,6 +48,8 @@ const DesktopHeader = () => {
     setIsOnclick(false);
     setIsOnclick2(false);
     setIsOnclick3(false);
+    setIsToogleMenu(false);
+
   };
 
   const handleOnclick2 = () => {
@@ -48,6 +57,8 @@ const DesktopHeader = () => {
     setIsOnclick(false);
     setIsOnclick1(false);
     setIsOnclick3(false);
+    setIsToogleMenu(false);
+
   };
 
   const handleOnclick3 = () => {
@@ -55,6 +66,8 @@ const DesktopHeader = () => {
     setIsOnclick(false);
     setIsOnclick1(false);
     setIsOnclick2(false);
+    setIsToogleMenu(false);
+
   };
 
   const handleOnclicknav1 = () => {
@@ -112,7 +125,9 @@ const DesktopHeader = () => {
                     className="d-flex flex-row justify-content-center align-items-center gap-1"
                   >
                     <div>
-                      <h6 className="mb-0 text-center position-relative text-white">
+                      <h6 className="mb-0 text-center position-relative text-white"
+                       style={{fontSize:"18px"}}
+                       >
                         About
                       </h6>
                     </div>
@@ -131,7 +146,9 @@ const DesktopHeader = () => {
                     >
                       <div className="header">
                         <Link href="/about" className="text-decoration-none">
-                          <h6 className="text-white header-text">
+                          <h6 className="text-white header-text"
+                           style={{fontSize:"18px"}}
+                          >
                             Who is FICAC
                           </h6>
                         </Link>
@@ -141,7 +158,10 @@ const DesktopHeader = () => {
                           href="/about/history/"
                           className="text-decoration-none"
                         >
-                          <h6 className="text-white header-text">History</h6>
+                          <h6 className="text-white header-text"
+                           style={{fontSize:"18px"}}
+                           >
+                            History</h6>
                         </Link>
                       </div>
                       <div className="header">
@@ -149,7 +169,9 @@ const DesktopHeader = () => {
                           href="/about/mission-vision/"
                           className="text-decoration-none"
                         >
-                          <h6 className="text-white header-text">
+                          <h6 className="text-white header-text"
+                           style={{fontSize:"18px"}}
+                           >
                           Mission & Vision 
                           </h6>
                         </Link>
@@ -159,7 +181,9 @@ const DesktopHeader = () => {
                           href="/about/executive/"
                           className="text-decoration-none"
                         >
-                          <h6 className="text-white header-text">Leadership</h6>
+                          <h6 className="text-white header-text"
+                           style={{fontSize:"18px"}}
+                           >Leadership</h6>
                         </Link>
                       </div>
                     </div>
@@ -173,11 +197,13 @@ const DesktopHeader = () => {
                     className="d-flex flex-row justify-content-center align-items-center gap-1"
                   >
                     <div>
-                      <Link href="/news" className="text-decoration-none">
-                        <h6 className="mb-0 text-center position-relative text-white">
+                      {/* <Link href="/news" className="text-decoration-none"> */}
+                        <h6 className="mb-0 text-center position-relative text-white"
+                           style={{fontSize:"18px"}}
+                           >
                           FICAC News
                         </h6>
-                      </Link>
+                      {/* </Link> */}
                     </div>
                     <div className="b-0 m-0 text-white">
                       {isOnclick1 ? (
@@ -191,12 +217,16 @@ const DesktopHeader = () => {
                     <div className="top mb-0 position-absolute">
                       <div className="header">
                         <Link href="/news" className="text-decoration-none">
-                          <h6 className="text-white header-text">FICAC News</h6>
+                          <h6 className="text-white header-text"
+                           style={{fontSize:"18px"}}
+                           >FICAC News</h6>
                         </Link>
                       </div>
                       <div className="header">
                         <Link href="/news" className="text-decoration-none">
-                          <h6 className="text-white header-text">
+                          <h6 className="text-white header-text"
+                           style={{fontSize:"18px"}}
+                           >
                             Newsletters
                           </h6>
                         </Link>
@@ -212,11 +242,13 @@ const DesktopHeader = () => {
                     className="d-flex flex-row justify-content-center align-items-center gap-1"
                   >
                     <div>
-                      <Link href="/membership" className="text-decoration-none">
-                        <h6 className="mb-0 text-center position-relative text-white">
+                      {/* <Link href="/membership" className="text-decoration-none"> */}
+                        <h6 className="mb-0 text-center position-relative text-white"
+                           style={{fontSize:"18px"}}
+                           >
                           Membership
                         </h6>
-                      </Link>
+                      {/* </Link> */}
                     </div>
                     <div className="b-0 m-0 text-white">
                       {isOnclick2 ? (
@@ -233,7 +265,9 @@ const DesktopHeader = () => {
                           href="/membership"
                           className="text-decoration-none"
                         >
-                          <h6 className="text-white header-text">
+                          <h6 className="text-white header-text"
+                           style={{fontSize:"18px"}}
+                           >
                             Membership Procedure
                           </h6>
                         </Link>
@@ -243,7 +277,9 @@ const DesktopHeader = () => {
                           href="/membership"
                           className="text-decoration-none"
                         >
-                          <h6 className="text-white header-text">
+                          <h6 className="text-white header-text"
+                           style={{fontSize:"18px"}}
+                           >
                             Membership Application
                           </h6>
                         </Link>
@@ -257,7 +293,9 @@ const DesktopHeader = () => {
                   <div className="d-flex flex-row justify-content-center align-items-center gap-3">
                     <div>
                       <Link href="/contact" className="text-decoration-none">
-                        <h6 className="mb-0 text-center position-relative text-white">
+                        <h6 className="mb-0 text-center position-relative text-white"
+                           style={{fontSize:"18px"}}
+                           >
                           Contact Us
                         </h6>
                       </Link>
@@ -300,13 +338,15 @@ const DesktopHeader = () => {
                   onClick={handleOnclicknav1}
                   className="d-flex flex-row bg-white align-items-center gap-1 p-3 border-bottom-1 border-black"
                 >
-                  <Link href="/ficac-committees" className="text-decoration-none">
+                  {/* <Link href="/ficac-committees" className="text-decoration-none"> */}
                   <div>
-                    <h6 className="mb-0 text-center position-relative text-black ms-2">
+                    <h5 className="mb-0 text-center position-relative text-black ms-2"
+                  style={{fontSize:"18px"}}
+                  >
                       Committees
-                    </h6>
+                    </h5>
                   </div>
-                  </Link>
+                  {/* </Link> */}
                   <div className="b-0 m-0 text-black">
                     {isOnclicknav1 ? (
                       <i class="bi bi-chevron-up b-0 m-0"></i>
@@ -319,12 +359,13 @@ const DesktopHeader = () => {
                   <div>
                     <div
                       onClick={handleOnclicknestednav}
-                      className=" headerOffcanvas top mb-0 d-flex  header align-items-center"
+                      className=" headerOffcanvas top mb-0 d-flex  header align-items-center gap-2"
                     >
-                      <div className="ms-4 p-2 pt-3">
-                        <h6> List of committees </h6>
+                      <div className="ms-4 p-0 pt-3">
+                        
+                        <p style={{fontSize:"16px"}} > List of committees </p>
                       </div>
-                      <div className="b-0 m-0 text-white justify-content-center  align-items-center">
+                      <div className="pb-0 m-0 text-white justify-content-center  align-items-center">
                         {isOnclicknestednav ? (
                           <i class="bi bi-chevron-up b-0 m-0"></i>
                         ) : (
@@ -336,8 +377,8 @@ const DesktopHeader = () => {
                 <div className="top  justify-content-center  align-items-center">
                   <div className="headerOffcanvas">
                   <Link href="/ficac-committees/central-committees/" className="text-decoration-none">
-                  <div className="header p-2 pt-3">
-                    <h6 className="ms-5"> Central Committees </h6>
+                  <div className="header p-0 pt-3">
+                    <p className="ms-5" style={{fontSize:"14px"}}> Central Committees </p>
                   </div>
                   </Link>
                   </div>
@@ -345,8 +386,8 @@ const DesktopHeader = () => {
 
                   <div className="headerOffcanvas">
                   <Link href="/ficac-committees/regions-committees" className="text-decoration-none">
-                  <div className="header p-2 pt-3">
-                  <h6 className="ms-5"> Regions Committees </h6>
+                  <div className="header p-0 pt-3">
+                  <p className="ms-5" style={{fontSize:"14px"}}> Regions Committees </p>
                   </div>
                   </Link>
                   </div>
@@ -389,9 +430,11 @@ const DesktopHeader = () => {
               <div className="d-flex flex-row  bg-white align-items-center gap-1 p-3">
               <Link href="/directory" className="text-decoration-none">
                 <div>
-                  <h6 className="mb-0 text-center position-relative text-black ms-2">
+                  <h5 className="mb-0 text-center position-relative text-black ms-2"
+                  style={{fontSize:"18px"}}
+                  >
                     Directory
-                  </h6>
+                  </h5>
                 </div>
               </Link>
               </div>
@@ -404,9 +447,11 @@ const DesktopHeader = () => {
                 
                 <Link href="/documents" className="text-decoration-none">
                 <div>
-                    <h6 className="mb-0 text-center position-relative text-black ms-2">
+                    <h5 className="mb-0 text-center position-relative text-black ms-2"
+                  style={{fontSize:"18px"}}
+                  >
                     Documents
-                    </h6>
+                    </h5>
                   </div>
                   </Link>
                   <div className="b-0 m-0 text-black">
@@ -423,14 +468,22 @@ const DesktopHeader = () => {
                       className=" headerOffcanvas top mb-0 d-flex  header align-items-center"
                     >
                       <div className="p-2 pt-3">
-                        <h6 className="ms-4"> FICAC Constitution  </h6>
+                        <h6 className="ms-4"
+                        style={{fontSize:"16px"}}
+                         >
+                           FICAC Constitution  
+                      </h6>
                       </div>
                      </div>
                      <div
                       className=" headerOffcanvas top mb-0 d-flex  header align-items-center"
                     >
                       <div className="p-2 pt-3">
-                        <h6 className="ms-4"> Member Constitution   </h6>
+                        <h6 className="ms-4"
+                        style={{fontSize:"16px"}}
+                        > 
+                        Member Constitution  
+                       </h6>
                       </div>
                      </div>
                 </div>
@@ -441,9 +494,11 @@ const DesktopHeader = () => {
             <div className="d-flex flex-row  bg-white align-items-center gap-1 p-3">
                <Link href="/gallery" className="text-decoration-none">
                 <div>
-                  <h6 className="mb-0 text-center position-relative text-black ms-2">
+                  <p className="mb-0 text-center position-relative text-black ms-2"
+                  style={{fontSize:"18px"}}
+                  >
                   Event Gallery
-                  </h6>
+                  </p>
                 </div>
                 </Link>
               </div>
