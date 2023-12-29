@@ -126,7 +126,7 @@ const MembershipContent = () => {
          If you wish to become a Member of FICAC aisbl, please complete the Application Form below.
          </p>
 
-        <Link href="http://ficac.ivistaz.co/wp-content/uploads/2023/12/Application-Form-Membership-2019.pdf">
+        <Link href="http://ficac.ivistaz.co/wp-content/uploads/2023/12/Application-Form-Membership-2019.pdf" target='_blank'>
          <div className='p-2 d-inline-block text-white fs-5 mb-4     ' style={{backgroundColor:"#001C79",}}>
          Download form
          </div>

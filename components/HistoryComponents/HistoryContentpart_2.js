@@ -7,17 +7,17 @@ const HistoryContentpart_2 = () => {
     <Container fluid>
         <Container>
             <Row className='px-5'>
-                <p>
+                <p className='px-lg-4'>
                 FICAC is now truly a global network of Consular Corps and Associations, serving to support and improve the status, legitimacy and effectiveness of all Consular Corps in all sending and receiving States. Its motto is: “BRIDGING THE WORLD”.
                 </p>
-                <p>
+                <p className='px-lg-4'>
                     <b>
                     The highest distinction of the World Federation of Consuls, the FICAC Gold Star, is awarded to incumbent Heads of State. Among the recipients are:
                     </b>
                 </p>
             </Row>
             <Row className='px-5'>
-                <ul className='px-4'>
+                <ul className='px-5'>
                     <li>
                         <p>
                         The Most Honourable P.J. Patterson, Governor General of Jamaica

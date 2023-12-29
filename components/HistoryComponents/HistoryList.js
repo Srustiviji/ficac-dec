@@ -27,7 +27,7 @@ const HistoryList = () => {
   });
 
   return (
-    <Container>
+    <Container className="px-0">
       <Row className="d-flex flex-lg-row flex-column mb-4">
         {data.map((post) => (
           <Col
@@ -44,15 +44,15 @@ const HistoryList = () => {
                 height={250}
               />
               <Col>
-                <h6 className=" mt-3 mb-lg-3"
+                <h6 className=" mt-3 mb-lg-3 mx-lg-0"
                 >
-                  <div className="px-lg-5 "
-                style={{height: '25px'}}
+                  <div className="px-lg-3"
+                style={{height: '25px' , color:"#001C79"}}
 
                     dangerouslySetInnerHTML={{ __html: post.title.rendered }}
                   />
                 </h6>
-                <p className="font20px mb-0">{post.acf.year}</p>
+                <p className="font20px mb-0" style={{color:"#001C79"}}><b>{post.acf.year}</b></p>
               </Col>
             </Col>
           </Col>

@@ -47,7 +47,7 @@ const HomeUpcomingEvents = () => {
 
 
 
-      <Container className="pt-2 pb-3">
+      <Container className="pt-2 pb-2">
         <Row className='pb-4 mt-4'>
           <h3
             className="fs-1 d-flex justify-content-center"

@@ -34,15 +34,7 @@ const Footer = () => {
                     <i class="bi bi-linkedin" ></i>
                   </Link>
                 </div>
-                <div>
-                  <Link
-                    href="https://www.facebook.com/ficacworld/"
-                    target='_blank'
-                    className='text-decoration-none text-white'
-                  >
-                    <i class="bi bi-facebook"></i>
-                  </Link>
-                </div>
+
                 <div>
                   <Link
                     href="https://twitter.com/ficacworld"
@@ -50,9 +42,24 @@ const Footer = () => {
                     className='text-decoration-none text-white'
                   >
                     
-                    <i class="bi bi-twitter"></i>
+                    <i class="bi bi-twitter-x"></i>
                   </Link>
                 </div>
+                
+                <div>
+                  <Link
+                    href="https://www.facebook.com/ficacworld/"
+                    target='_blank'
+                    className='text-decoration-none text-white'
+                  >
+                    <i class="bi bi-facebook"></i>
+                   
+                  </Link>
+                </div>
+
+              
+
+              
               </div>
             </Col>
           </Row>

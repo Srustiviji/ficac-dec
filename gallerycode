@@ -52,11 +52,42 @@ const Post = ({ slug }) => {
                   <hr className="h-line"
                   style={{color:"#810400"}} />
                   <Row className='d-flex flex-lg-row flex-column flex-wrap'>
-                    {post.acf.photo_gallery.events_photos[0].map((photo, index) => (
+                    {post.acf.photo_gallery.gallery_1[0].map((photo, index) => (
                       <Col
                         key={photo.id}
                         md={3}
                       >
+                        {post.acf.title}
+                        {/* Desktop View */}
+                        <Col
+                          className='p-0 d-lg-block d-none'
+                          style={{
+                            marginTop: `${index % 4 === 0 ? 0 : 40 * (index % 4)}px`, // Adjust the margin-top as needed
+                            marginLeft: `${index % 4 === 0 ? 0 : -50}px`, // 0 for the first, 30 for the rest
+                          }}
+                        >
+                          <Image src={photo.full_image_url} alt="" width="100%" height={212} />
+                        </Col>
+
+                        
+                        {/* Mobile View */}
+
+                        <Col
+                          className='p-0 d-lg-none d-block mt-3'
+                        >
+                          <Image src={photo.full_image_url} alt="" width="100%" />
+                        </Col>
+
+                      </Col>
+                    ))}
+                  </Row>
+                  <Row className='d-flex flex-lg-row flex-column flex-wrap'>
+                    {post.acf.photo_gallery.gallery_2[1].map((photo, index) => (
+                      <Col
+                        key={photo.id}
+                        md={3}
+                      >
+                        {post.acf.title_2}
                         {/* Desktop View */}
                         <Col
                           className='p-0 d-lg-block d-none'
