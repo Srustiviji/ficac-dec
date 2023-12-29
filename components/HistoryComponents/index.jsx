@@ -4,6 +4,7 @@ import Footer from '../Shared/Footer'
 import HistoryBanner from './HistoryBanner'
 import HistoryContent from './HistoryContent'
 import HistoryList from './HistoryList'
+import HistoryContentpart_2 from './HistoryContentpart_2'
 
 
 const index = () => {
@@ -14,6 +15,7 @@ const index = () => {
     <HistoryBanner />
     <HistoryContent />
     <HistoryList />
+    <HistoryContentpart_2 />
     <Footer/>
     
     </>

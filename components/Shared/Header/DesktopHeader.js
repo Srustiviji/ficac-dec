@@ -126,8 +126,8 @@ const DesktopHeader = () => {
                   >
                     <div>
                       <h6 className="mb-0 text-center position-relative text-white"
-                       style={{fontSize:"18px"}}
-                       >
+                        style={{ fontSize: "18px" }}
+                      >
                         About
                       </h6>
                     </div>
@@ -147,7 +147,7 @@ const DesktopHeader = () => {
                       <div className="header">
                         <Link href="/about" className="text-decoration-none">
                           <h6 className="text-white header-text"
-                           style={{fontSize:"18px"}}
+                            style={{ fontSize: "18px" }}
                           >
                             Who is FICAC
                           </h6>
@@ -159,8 +159,8 @@ const DesktopHeader = () => {
                           className="text-decoration-none"
                         >
                           <h6 className="text-white header-text"
-                           style={{fontSize:"18px"}}
-                           >
+                            style={{ fontSize: "18px" }}
+                          >
                             History</h6>
                         </Link>
                       </div>
@@ -170,9 +170,9 @@ const DesktopHeader = () => {
                           className="text-decoration-none"
                         >
                           <h6 className="text-white header-text"
-                           style={{fontSize:"18px"}}
-                           >
-                          Mission & Vision 
+                            style={{ fontSize: "18px" }}
+                          >
+                            Mission & Vision
                           </h6>
                         </Link>
                       </div>
@@ -182,8 +182,8 @@ const DesktopHeader = () => {
                           className="text-decoration-none"
                         >
                           <h6 className="text-white header-text"
-                           style={{fontSize:"18px"}}
-                           >Leadership</h6>
+                            style={{ fontSize: "18px" }}
+                          >Leadership</h6>
                         </Link>
                       </div>
                     </div>
@@ -198,22 +198,22 @@ const DesktopHeader = () => {
                   >
                     <div>
                       {/* <Link href="/news" className="text-decoration-none"> */}
-                        <h6 className="mb-0 text-center position-relative text-white"
-                           style={{fontSize:"18px"}}
-                           >
-                          FICAC News
-                        </h6>
+                      <h6 className="mb-0 text-center position-relative text-white"
+                        style={{ fontSize: "18px" }}
+                      >
+                        FICAC News
+                      </h6>
                       {/* </Link> */}
                     </div>
-                    <div className="b-0 m-0 text-white">
+                    {/* <div className="b-0 m-0 text-white">
                       {isOnclick1 ? (
                         <i class="bi bi-chevron-up b-0 m-0"></i>
                       ) : (
                         <i class="bi bi-chevron-down"></i>
                       )}
-                    </div>
+                    </div> */}
                   </div>
-                  {isOnclick1 && (
+                  {/* {isOnclick1 && (
                     <div className="top mb-0 position-absolute">
                       <div className="header">
                         <Link href="/news" className="text-decoration-none">
@@ -232,7 +232,7 @@ const DesktopHeader = () => {
                         </Link>
                       </div>
                     </div>
-                  )}
+                  )} */}
                 </div>
 
                 {/*  3 heading */}
@@ -243,22 +243,22 @@ const DesktopHeader = () => {
                   >
                     <div>
                       {/* <Link href="/membership" className="text-decoration-none"> */}
-                        <h6 className="mb-0 text-center position-relative text-white"
-                           style={{fontSize:"18px"}}
-                           >
-                          Membership
-                        </h6>
+                      <h6 className="mb-0 text-center position-relative text-white"
+                        style={{ fontSize: "18px" }}
+                      >
+                        Membership
+                      </h6>
                       {/* </Link> */}
                     </div>
-                    <div className="b-0 m-0 text-white">
+                    {/* <div className="b-0 m-0 text-white">
                       {isOnclick2 ? (
                         <i class="bi bi-chevron-up b-0 m-0"></i>
                       ) : (
                         <i class="bi bi-chevron-down"></i>
                       )}
-                    </div>
+                    </div> */}
                   </div>
-                  {isOnclick2 && (
+                  {/* {isOnclick2 && (
                     <div className="top mb-0 position-absolute">
                       <div className="header">
                         <Link
@@ -285,7 +285,7 @@ const DesktopHeader = () => {
                         </Link>
                       </div>
                     </div>
-                  )}
+                  )} */}
                 </div>
 
                 {/* 4 heading */}
@@ -294,8 +294,8 @@ const DesktopHeader = () => {
                     <div>
                       <Link href="/contact" className="text-decoration-none">
                         <h6 className="mb-0 text-center position-relative text-white"
-                           style={{fontSize:"18px"}}
-                           >
+                          style={{ fontSize: "18px" }}
+                        >
                           Contact Us
                         </h6>
                       </Link>
@@ -333,70 +333,70 @@ const DesktopHeader = () => {
 
               {/* side nav bar */}
 
-              <div className="">
+              {/* <div className="">
                 <div
                   onClick={handleOnclicknav1}
                   className="d-flex flex-row bg-white align-items-center gap-1 p-3 border-bottom-1 border-black"
                 >
-                  {/* <Link href="/ficac-committees" className="text-decoration-none"> */}
+                  <Link href="/ficac-committees" className="text-decoration-none">
                   <div>
                     <h5 className="mb-0 text-center position-relative text-black ms-2"
-                  style={{fontSize:"18px"}}
-                  >
+                      style={{ fontSize: "18px" }}
+                    >
                       Committees
                     </h5>
                   </div>
-                  {/* </Link> */}
-                  <div className="b-0 m-0 text-black">
+                  </Link> */}
+                  {/* <div className="b-0 m-0 text-black">
                     {isOnclicknav1 ? (
                       <i class="bi bi-chevron-up b-0 m-0"></i>
                     ) : (
                       <i class="bi bi-chevron-down"></i>
                     )}
-                  </div>
-                </div>
+                  </div> */}
+                {/* </div>
                 {isOnclicknav1 && (
-                  <div>
-                    <div
-                      onClick={handleOnclicknestednav}
-                      className=" headerOffcanvas top mb-0 d-flex  header align-items-center gap-2"
-                    >
-                      <div className="ms-4 p-0 pt-3">
-                        
-                        <p style={{fontSize:"16px"}} > List of committees </p>
+                <div>
+                  <div
+                    onClick={handleOnclicknestednav}
+                    className=" headerOffcanvas top mb-0 d-flex  header align-items-center gap-2"
+                  >
+                    <div className="ms-4 p-0 pt-3">
+
+                      <p style={{ fontSize: "16px" }} > List of committees </p>
+                    </div>
+                    <div className="pb-0 m-0 text-white justify-content-center  align-items-center">
+                      {isOnclicknestednav ? (
+                        <i class="bi bi-chevron-up b-0 m-0"></i>
+                      ) : (
+                        <i class="bi bi-chevron-down"></i>
+                      )}
+                    </div>
+                  </div>
+                  {isOnclicknestednav && (
+                    <div className="top  justify-content-center  align-items-center">
+                      <div className="headerOffcanvas"> */}
+                        {/* <Link href="/ficac-committees/central-committees/" className="text-decoration-none">
+                          <div className="header p-0 pt-3">
+                            <p className="ms-5" style={{ fontSize: "14px" }}> Central Committees </p>
+                          </div>
+                        </Link>
                       </div>
-                      <div className="pb-0 m-0 text-white justify-content-center  align-items-center">
-                        {isOnclicknestednav ? (
-                          <i class="bi bi-chevron-up b-0 m-0"></i>
-                        ) : (
-                          <i class="bi bi-chevron-down"></i>
-                        )}
+
+
+                      <div className="headerOffcanvas">
+                        <Link href="/ficac-committees/regions-committees" className="text-decoration-none">
+                          <div className="header p-0 pt-3">
+                            <p className="ms-5" style={{ fontSize: "14px" }}> Regions Committees </p>
+                          </div>
+                        </Link>
                       </div>
                     </div>
-                    {isOnclicknestednav && (
-                <div className="top  justify-content-center  align-items-center">
-                  <div className="headerOffcanvas">
-                  <Link href="/ficac-committees/central-committees/" className="text-decoration-none">
-                  <div className="header p-0 pt-3">
-                    <p className="ms-5" style={{fontSize:"14px"}}> Central Committees </p>
-                  </div>
-                  </Link>
-                  </div>
-                  
 
-                  <div className="headerOffcanvas">
-                  <Link href="/ficac-committees/regions-committees" className="text-decoration-none">
-                  <div className="header p-0 pt-3">
-                  <p className="ms-5" style={{fontSize:"14px"}}> Regions Committees </p>
-                  </div>
-                  </Link>
-                  </div>
-                </div>
-                
-                
-              )}
-                    <div
-                      // onClick={handleOnclicknav1}
+
+                  )}
+                  <div
+                      onClick={handleOnclicknav1}
                       className="headerOffcanvas top mb-0 d-flex  header align-items-center p-2"
                     >
                       <div className="ms-4 pt-2">
@@ -404,18 +404,18 @@ const DesktopHeader = () => {
                       </div>
                     </div>
                     <div
-                      // onClick={handleOnclicknav1}
+                      onClick={handleOnclicknav1}
                       className="headerOffcanvas top mb-0 d-flex  header align-items-center p-2"
                     >
                       <div className="ms-4 pt-2">
                         <h6> Committee Members </h6>
                       </div>
                     </div>
-                  </div>
+                </div>
                 )}
-              
+
               </div>
-              {/* {isOnclicknestednav && (
+              {isOnclicknestednav && (
                 <div className="top  justify-content-center  align-items-center">
                   <div className="header">
                     <h6> Central Committees </h6>
@@ -426,80 +426,95 @@ const DesktopHeader = () => {
                 </div>
               )} */}
 
+
+              {/* new commitees heading */}
+              <div className="d-flex flex-row  bg-white align-items-center gap-1 p-3">
+                <Link href="/ficac-committees" className="text-decoration-none">
+                  <div>
+                    <h5 className="mb-0 text-center position-relative text-black ms-2"
+                      style={{ fontSize: "18px" }}
+                    >
+                     Committees
+                    </h5>
+                  </div>
+                </Link>
+              </div>
+
+
               {/* directory heading */}
               <div className="d-flex flex-row  bg-white align-items-center gap-1 p-3">
-              <Link href="/directory" className="text-decoration-none">
-                <div>
-                  <h5 className="mb-0 text-center position-relative text-black ms-2"
-                  style={{fontSize:"18px"}}
-                  >
-                    Directory
-                  </h5>
-                </div>
-              </Link>
+                <Link href="/directory" className="text-decoration-none">
+                  <div>
+                    <h5 className="mb-0 text-center position-relative text-black ms-2"
+                      style={{ fontSize: "18px" }}
+                    >
+                      Directory
+                    </h5>
+                  </div>
+                </Link>
               </div>
 
               {/* Documents heading */}
-                <div
-                  onClick={handleOnclicknav2}
-                  className="d-flex flex-row bg-white align-items-center gap-1 p-3"
-                >
-                
+              <div
+                onClick={handleOnclicknav2}
+                className="d-flex flex-row bg-white align-items-center gap-1 p-3"
+              >
+
                 <Link href="/documents" className="text-decoration-none">
-                <div>
+                  <div>
                     <h5 className="mb-0 text-center position-relative text-black ms-2"
-                  style={{fontSize:"18px"}}
-                  >
-                    Documents
+                      style={{ fontSize: "18px" }}
+                    >
+                      Documents
                     </h5>
                   </div>
-                  </Link>
-                  <div className="b-0 m-0 text-black">
-                    {isOnclicknav2 ? (
-                      <i class="bi bi-chevron-up b-0 m-0"></i>
-                    ) : (
-                      <i class="bi bi-chevron-down"></i>
-                    )}
+                </Link>
+                {/* <div className="b-0 m-0 text-black">
+                  {isOnclicknav2 ? (
+                    <i class="bi bi-chevron-up b-0 m-0"></i>
+                  ) : (
+                    <i class="bi bi-chevron-down"></i>
+                  )}
+                </div> */}
+              </div>
+              {/* {isOnclicknav2 && (
+                <div>
+                  <div
+                    className=" headerOffcanvas top mb-0 d-flex  header align-items-center"
+                  >
+                    <div className="p-2 pt-3">
+                      <h6 className="ms-4"
+                        style={{ fontSize: "16px" }}
+                      >
+                        FICAC Constitution
+                      </h6>
+                    </div>
+                  </div>
+                  <div
+                    className=" headerOffcanvas top mb-0 d-flex  header align-items-center"
+                  >
+                    <div className="p-2 pt-3">
+                      <h6 className="ms-4"
+                        style={{ fontSize: "16px" }}
+                      >
+                        Member Constitution
+                      </h6>
+                    </div>
                   </div>
                 </div>
-                {isOnclicknav2 && (
+              )} */}
+
+              {/* Event gallery */}
+
+              <div className="d-flex flex-row  bg-white align-items-center gap-1 p-3">
+                <Link href="/gallery" className="text-decoration-none">
                   <div>
-                    <div
-                      className=" headerOffcanvas top mb-0 d-flex  header align-items-center"
+                    <p className="mb-0 text-center position-relative text-black ms-2"
+                      style={{ fontSize: "18px" }}
                     >
-                      <div className="p-2 pt-3">
-                        <h6 className="ms-4"
-                        style={{fontSize:"16px"}}
-                         >
-                           FICAC Constitution  
-                      </h6>
-                      </div>
-                     </div>
-                     <div
-                      className=" headerOffcanvas top mb-0 d-flex  header align-items-center"
-                    >
-                      <div className="p-2 pt-3">
-                        <h6 className="ms-4"
-                        style={{fontSize:"16px"}}
-                        > 
-                        Member Constitution  
-                       </h6>
-                      </div>
-                     </div>
-                </div>
-                )}
-
-            {/* Event gallery */}
-
-            <div className="d-flex flex-row  bg-white align-items-center gap-1 p-3">
-               <Link href="/gallery" className="text-decoration-none">
-                <div>
-                  <p className="mb-0 text-center position-relative text-black ms-2"
-                  style={{fontSize:"18px"}}
-                  >
-                  Event Gallery
-                  </p>
-                </div>
+                      Event Gallery
+                    </p>
+                  </div>
                 </Link>
               </div>
 

@@ -5,6 +5,7 @@ import Footer from '../Shared/Footer'
 import RegionalCommittees from './RegionalCommittees'
 import RegionCommitteesBanner from '../RegionalCommitteeComponents/RegionCommitteeBanner'
 import RegionCommitteesBannerContent from  '../RegionalCommitteeComponents/RegionCommitteBannerContent'
+import RegionalCommitteesContent from './RegionalCommitteesContent'
 
 
 import '../StyleComponents'
@@ -17,6 +18,7 @@ const index = () => {
     <Header />
     <RegionCommitteesBanner />
     <RegionCommitteesBannerContent />
+    <RegionalCommitteesContent />
     <RegionalCommittees />
     <Footer />
     </>

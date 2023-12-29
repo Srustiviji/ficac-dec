@@ -15,7 +15,7 @@ const RegionCommitteeBannerContent = () => {
             <p
             style={{fontSize:"30px", fontWeight:"lighter"}}
             >
-                Central Committees
+                Regions Committees
             </p>
                </Col>
             </Container>

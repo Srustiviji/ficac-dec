@@ -26,6 +26,13 @@ const HistoryContent = () => {
         <p>On 17th September 2010, the World Federation of Consuls signed a partnership agreement with the Prince Albert II Foundation of Monaco, a Foundation created by His Serene Highness Prince Albert II, to work in the fields of environment and climate change. Several MoUs were also signed with international Organizations such as: ASCAME - Association of the Mediterranean Chambers of Commerce -, RASIT - The Royal Academy of Science International Trust -, INTERLEGAL - global legal network -, PAM – Parliamentary Union of the Mediterranean et al. A minimum of 2 Regional Conferences are organized every year and the World Congress of Consuls, during which the General Assembly elects the President, Vice-President and 9 Board Members, is held every three years.
         </p>
         </Row> 
+        <Row className='px-5'>
+          <p>
+            <b>
+            FICAC has been led by the following distinguished persons since its inception:
+            </b>
+          </p>
+        </Row>
 
 
 
