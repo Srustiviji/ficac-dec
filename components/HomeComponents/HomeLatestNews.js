@@ -72,7 +72,7 @@ const HomeLatestNews = () => {
         <Carousel
           swipeable={true}
           draggable={false}
-          showDots={true}
+          showDots={false}
           responsive={responsive}
           ssr={true}
           infinite={true}

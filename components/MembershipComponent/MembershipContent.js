@@ -27,11 +27,10 @@ const MembershipContent = () => {
             <p>
             Summarized below are the procedures that a Consular Corps or Association or a Regional Association is asked to follow to become a Member of the FICAC aisbl, and the general procedres for remaining a Member Corps/Association or Regional Association of FICAC
             </p>
-            <ul className='px-3 membershippara headingdisc'>
-                <li>
+          
+               
                 <h4>Applications</h4>
-                </li>
-            </ul>
+          
             <p>
             The application procedure shows directly from article 4 of the Official Statutes of FICAC aisbl
             </p>
@@ -41,11 +40,11 @@ const MembershipContent = () => {
             <p>
             All Associations are eligible to become Members of the Federation, provided that their statutes are consistent with the Constitution of the Federation, and that they accept the Constitution of the Federation, subject to the confirmation of their membership by the General Assembly.
             </p>
-            <ul className='px-3 membershippara'>
-                <li>
+            {/* <ul className='px-3 membershippara'>
+                <li> */}
                 <h4>Application Dossier</h4>
-                </li>
-            </ul>
+                {/* </li>
+            </ul> */}
             <p>
             To apply to join FICAC as a member Corps/Association or Regional Association, the Organization is asked to send documents to:
             </p>
