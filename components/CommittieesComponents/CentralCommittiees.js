@@ -101,7 +101,7 @@ const CentralCommittiees = () => {
                       }}
                     />
                   </p>
-                  <Col className="text-align-center justify-content-lg-start justify-content-center d-flex">
+                  {/* <Col className="text-align-center justify-content-lg-start justify-content-center d-flex">
                   <Button
                     onClick={() => openPopup(post)}
                     className="bg-white border-0 "
@@ -110,7 +110,7 @@ const CentralCommittiees = () => {
                     Read More
                   </Button>
                   </Col>
-                </Col>
+                </Col> */}
               </Row>
             ))}
           </Col>

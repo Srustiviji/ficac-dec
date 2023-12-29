@@ -197,13 +197,13 @@ const DesktopHeader = () => {
                     className="d-flex flex-row justify-content-center align-items-center gap-1"
                   >
                     <div>
-                      {/* <Link href="/news" className="text-decoration-none"> */}
+                      <Link href="/news" className="text-decoration-none">
                       <h6 className="mb-0 text-center position-relative text-white"
                         style={{ fontSize: "18px" }}
                       >
                         FICAC News
                       </h6>
-                      {/* </Link> */}
+                      </Link>
                     </div>
                     {/* <div className="b-0 m-0 text-white">
                       {isOnclick1 ? (
