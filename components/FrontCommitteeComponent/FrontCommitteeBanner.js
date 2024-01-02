@@ -13,7 +13,10 @@ const FrontCommitteeBanner = () => {
     }
 
   return (
-    <Container fluid  style={background}>
+    <Container fluid >
+       <Container style={background} >
+
+</Container>
     </Container>
   )
 }

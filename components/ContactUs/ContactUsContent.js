@@ -5,7 +5,7 @@ import { Container} from 'react-bootstrap'
 
 const ContactUsContent = () => {
   return (
-    <Container fluid className='p-0'>
+  
    <Container className='px-lg-5 m-0 p-0'>
     <Col className='banner-text-container text-white px-lg-5 '>
     <p className='mb-0'>
@@ -29,7 +29,7 @@ const ContactUsContent = () => {
     </Row>
    
 </Container>
-</Container>
+
   )
 }
 
