@@ -15,7 +15,7 @@ const HomeBanner = () => {
 
   return (
 
-     <Container  style={background}>
+     <Container fluid style={background}>
     </Container>
   )
 }

@@ -29,7 +29,7 @@ const MembershipContent = () => {
             </p>
           
                
-                <h4>Applications</h4>
+                <h4 className='membershippara'>Applications</h4>
           
             <p>
             The application procedure shows directly from article 4 of the Official Statutes of FICAC aisbl
@@ -42,7 +42,7 @@ const MembershipContent = () => {
             </p>
             {/* <ul className='px-3 membershippara'>
                 <li> */}
-                <h4>Application Dossier</h4>
+                <h4 className='membershippara'>Application Dossier</h4>
                 {/* </li>
             </ul> */}
             <p>
@@ -52,24 +52,37 @@ const MembershipContent = () => {
             {/* second part */}
             <Col className='px-3 '>
             <p className='p-0 m-0'>
-            FICAC aisbl
+            <b>FICAC aisbl</b>
             </p>
             <p className='p-0 m-0'>
-            Hon. Purrshottam Bhaggeria, Secretary General 
+            <b>Hon. Purrshottam Bhaggeria, Secretary General </b>
             </p> 
-            <p className='p-0 m-0'>
-             Email: secretary.general@ficacworld.org 
-            </p>
-            <p className='p-0 m-0'>
-            Secretary’s General Office
-            </p>
+            <p><a 
+            className='text-decoration-none' 
+            href="mailto:secretary.general@ficacworld.org "
+            >
+                 Email: secretary.general@ficacworld.org
+            </a></p>
             
             <p className='p-0 m-0'>
-            Sunil Kunj (Mr) 
+            <b>Secretary’s General Office</b>
             </p>
+            
+            
             <p className='p-0 m-0'>
-            Email: secretary.general.office@ficacworld.org 
+            <b>Sunil Kunj (Mr) </b>
             </p>
+
+            
+            <p><a 
+            className='text-decoration-none' 
+            href="mailto:secretary.general.office@ficacworld.org "
+            >
+                Email: secretary.general.office@ficacworld.org 
+            </a></p>
+            {/* <p className='p-0 m-0'>
+            Email: secretary.general.office@ficacworld.org 
+            </p> */}
             <p className='p-0 m-0'>
             Tel.: +91-11-49502068 Mobile & WhatsApp: +91-9910566559 
             </p>

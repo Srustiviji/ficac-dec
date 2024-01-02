@@ -242,13 +242,13 @@ const DesktopHeader = () => {
                     className="d-flex flex-row justify-content-center align-items-center gap-1"
                   >
                     <div>
-                      {/* <Link href="/membership" className="text-decoration-none"> */}
+                      <Link href="/membership" className="text-decoration-none">
                       <h6 className="mb-0 text-center position-relative text-white"
                         style={{ fontSize: "18px" }}
                       >
                         Membership
                       </h6>
-                      {/* </Link> */}
+                      </Link>
                     </div>
                     {/* <div className="b-0 m-0 text-white">
                       {isOnclick2 ? (

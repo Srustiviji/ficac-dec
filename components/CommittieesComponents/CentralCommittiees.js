@@ -109,8 +109,8 @@ const CentralCommittiees = () => {
                   >
                     Read More
                   </Button>
-                  </Col>
-                </Col> */}
+                  </Col> */}
+                </Col>
               </Row>
             ))}
           </Col>

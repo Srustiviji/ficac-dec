@@ -107,313 +107,213 @@ const MobileHeader = () => {
       <Container className="position-fixed">
                 {isToggleMenuMobile && (
      <>
-     <div
-       className="position-absolute bg-opacity-25  top-0 end-0 bottom-0 start-0"
-       onClick={toggleMenuClickMobile}
-     >
-       {/* background onclick to close */}
-     </div>
-     <div
-       className="position-absolute top-0 bottom-0 end-0 w-100 h-100 gap-3 position-fixed"
-       style={{ backgroundColor: "#001C79" }}
-     >
-       <p className="text-white fs-4 align-content-right" onClick={toggleMenuClickMobile}>
-         <i class="bi bi-x-circle"></i>
-       </p>
-       {/* Left Side Menu */}
+    <div
+              className="position-absolute bg-opacity-25  top-0 end-0 bottom-0 start-0"
+              onClick={toggleMenuClickMobile}
+            >
+              {/* background onclick to close */}
+            </div>
+            <div
+              className="position-fixed top-0 bottom-0 end-0 w-100 h-100 gap-3"
+              style={{ backgroundColor: "#001C79" }}
+            >
+              <p className="text-white fs-4 align-content-right pt-2 d-flex justify-content-end" onClick={toggleMenuClickMobile}>
+                <i class="bi bi-x-circle"></i>
+              </p>
+              {/* Left Side Menu */}
 
-       {/* side nav bar */}
+              {/* side nav bar */}
 
-       <div className="">
-        {/* about heading */}
+              {/* <div className="">
+                <div
+                  onClick={handleOnclicknav1}
+                  className="d-flex flex-row bg-white align-items-center gap-1 p-3 border-bottom-1 border-black"
+                >
+                  <Link href="/ficac-committees" className="text-decoration-none">
+                  <div>
+                    <h5 className="mb-0 text-center position-relative text-black ms-2"
+                      style={{ fontSize: "18px" }}
+                    >
+                      Committees
+                    </h5>
+                  </div>
+                  </Link> */}
+                  {/* <div className="b-0 m-0 text-black">
+                    {isOnclicknav1 ? (
+                      <i class="bi bi-chevron-up b-0 m-0"></i>
+                    ) : (
+                      <i class="bi bi-chevron-down"></i>
+                    )}
+                  </div> */}
+                {/* </div>
+                {isOnclicknav1 && (
+                <div>
+                  <div
+                    onClick={handleOnclicknestednav}
+                    className=" headerOffcanvas top mb-0 d-flex  header align-items-center gap-2"
+                  >
+                    <div className="ms-4 p-0 pt-3">
 
-        <div
-           onClick={handleOnclick}
-           className="d-flex flex-row bg-white align-items-center gap-1"
-         >
-         
-         {/* <Link href="/about" className="text-decoration-none"> */}
-         <div className="p-2">
-             <h6 className="mb-0 text-center position-relative text-black ms-2">
-             About
-             </h6>
-           </div>
-           {/* </Link> */}
-           <div className="b-0 m-0 text-black">
-             {isOnclick ? (
-               <i class="bi bi-chevron-up b-0 m-0"></i>
-             ) : (
-               <i class="bi bi-chevron-down"></i>
-             )}
-           </div>
-         </div>
-         {isOnclick && (
-           <div>
-            <Link href="/about" className="text-decoration-none">
-           <div className="header p-2">
-           <h6 className="ms-4">Who is FICAC </h6>
-           </div>
-           </Link>
-           <Link href="/about/history/" className="text-decoration-none">
-           <div className="header p-2">
-           <h6 className="ms-4">History</h6>
-           </div>
-           </Link>
-           <Link href="/about/mission-vision/" className="text-decoration-none">
-           <div className="header p-2">
-           <h6 className="ms-4">Misssion & Vission</h6>
-           </div>
-           </Link>
-           <Link href="/about/executive/" className="text-decoration-none">
-           <div className="header p-2">
-           <h6 className="ms-4">Leadership</h6>
-           </div>
-           </Link>
-               
+                      <p style={{ fontSize: "16px" }} > List of committees </p>
+                    </div>
+                    <div className="pb-0 m-0 text-white justify-content-center  align-items-center">
+                      {isOnclicknestednav ? (
+                        <i class="bi bi-chevron-up b-0 m-0"></i>
+                      ) : (
+                        <i class="bi bi-chevron-down"></i>
+                      )}
+                    </div>
+                  </div>
+                  {isOnclicknestednav && (
+                    <div className="top  justify-content-center  align-items-center">
+                      <div className="headerOffcanvas"> */}
+                        {/* <Link href="/ficac-committees/central-committees/" className="text-decoration-none">
+                          <div className="header p-0 pt-3">
+                            <p className="ms-5" style={{ fontSize: "14px" }}> Central Committees </p>
+                          </div>
+                        </Link>
+                      </div>
+
+
+                      <div className="headerOffcanvas">
+                        <Link href="/ficac-committees/regions-committees" className="text-decoration-none">
+                          <div className="header p-0 pt-3">
+                            <p className="ms-5" style={{ fontSize: "14px" }}> Regions Committees </p>
+                          </div>
+                        </Link>
+                      </div>
+                    </div>
+
+
+                  )}
+                  <div
+                      onClick={handleOnclicknav1}
+                      className="headerOffcanvas top mb-0 d-flex  header align-items-center p-2"
+                    >
+                      <div className="ms-4 pt-2">
+                        <h6> Their Objective </h6>
+                      </div>
+                    </div>
+                    <div
+                      onClick={handleOnclicknav1}
+                      className="headerOffcanvas top mb-0 d-flex  header align-items-center p-2"
+                    >
+                      <div className="ms-4 pt-2">
+                        <h6> Committee Members </h6>
+                      </div>
+                    </div>
+                </div>
+                )}
+
               </div>
-         )}
+              {isOnclicknestednav && (
+                <div className="top  justify-content-center  align-items-center">
+                  <div className="header">
+                    <h6> Central Committees </h6>
+                  </div>
+                  <div className="header">
+                    <h6> Regions Committees </h6>
+                  </div>
+                </div>
+              )} */}
 
-         {/* ficac news */}
-         <div
-           onClick={handleOnclick1}
-           className="d-flex flex-row bg-white align-items-center gap-1"
-         >
-         
-         <Link href="/news" className="text-decoration-none">
-         <div className="p-2">
-             <h6 className="mb-0 text-center position-relative text-black ms-2">
-             FICAC News
-             </h6>
-           </div>
-           </Link>
-           <div className="b-0 m-0 text-black">
-             {isOnclick1 ? (
-               <i class="bi bi-chevron-up b-0 m-0"></i>
-             ) : (
-               <i class="bi bi-chevron-down"></i>
-             )}
-           </div>
-         </div>
-         {isOnclick1 && (
-           <div>
-            <Link href="/news" className="text-decoration-none">
-           <div className="header p-2">
-           <h6 className="ms-4">FICAC News </h6>
-           </div>
-           </Link>
-           <Link href="/news" className="text-decoration-none">
-           <div className="header p-2">
-           <h6 className="ms-4">Newsletters</h6>
-           </div>
-           </Link>
-          </div>
-         )}
 
-         {/* membership procedure */}
-
-         <div
-           onClick={handleOnclick2}
-           className="d-flex flex-row bg-white align-items-center gap-1"
-         >
-         
-         <Link href="/membership" className="text-decoration-none">
-         <div className="p-2">
-             <h6 className="mb-0 text-center position-relative text-black ms-2">
-             Membership
-             </h6>
-           </div>
-           </Link>
-           <div className="b-0 m-0 text-black">
-             {isOnclick2 ? (
-               <i class="bi bi-chevron-up b-0 m-0"></i>
-             ) : (
-               <i class="bi bi-chevron-down"></i>
-             )}
-           </div>
-         </div>
-         {isOnclick2 && (
-           <div>
-            <Link href="/membership" className="text-decoration-none">
-           <div className="header p-2">
-           <h6 className="ms-4">Membership Procedure</h6>
-           </div>
-           </Link>
-           <Link href="/membership" className="text-decoration-none">
-           <div className="header p-2">
-           <h6 className="ms-4">Membership Application</h6>
-           </div>
-           </Link>
-          </div>
-         )}
-
-         {/* contact */}
-         <div className="d-flex flex-row  bg-white align-items-center gap-1 p-2">
-          <Link href="/contact" className="text-decoration-none">
-         <div>
-           <h6 className="mb-0 text-center position-relative text-black ms-2">
-           Contact
-           </h6>
-         </div>
-         </Link>
-       </div>
-
-         {/* committees */}
-
-         <div
-           onClick={handleOnclicknav1}
-           className="d-flex flex-row bg-white align-items-center gap-1 p-2 "
-         >
-           <Link href="/ficac-committees" className="text-decoration-none">
-           <div>
-             <h6 className="mb-0 text-center position-relative text-black ms-2">
-               Committees
-             </h6>
-           </div>
-           </Link>
-           <div className="b-0 m-0 text-black">
-             {isOnclicknav1 ? (
-               <i class="bi bi-chevron-up b-0 m-0"></i>
-             ) : (
-               <i class="bi bi-chevron-down"></i>
-             )}
-           </div>
-         </div>
-         <div>
-         {isOnclicknav1 && (
-           <div>
-             <div
-               onClick={handleOnclicknestednav}
-               className="top mb-0 d-flex  header align-items-center"
-             >
-               <div className="ms-4 p-2">
-                 <h6> List of committees </h6>
-               </div>
-               <div className="b-0 m-0 text-white justify-content-center  align-items-center">
-                 {isOnclicknestednav ? (
-                   <i class="bi bi-chevron-up b-0 m-0"></i>
-                 ) : (
-                   <i class="bi bi-chevron-down"></i>
-                 )}
-               </div>
-             </div>
-            
-             {isOnclicknestednav && (
-         <div className="top  justify-content-center  align-items-center">
-           <Link href="/ficac-committees/central-committees/" className="text-decoration-none">
-           <div className="header p-2">
-             <h6 className="ms-5"> Central Committees </h6>
-           </div>
-           </Link>
-
-           <Link href="/ficac-committees/regions-committees" className="text-decoration-none">
-           <div className="header p-2">
-           <h6 className="ms-5"> Regions Committees </h6>
-           </div>
-           </Link>
-         </div>
-       
-         
-       )}
-             <div
-               // onClick={handleOnclicknav1}
-               className="top mb-0 d-flex  header align-items-center p-2"
-             >
-               <div className="ms-4">
-                 <h6> Their Objective </h6>
-               </div>
-             </div>
-             <div
-               // onClick={handleOnclicknav1}
-               className="top mb-0 d-flex  header align-items-center p-2"
-             >
-               <div className="ms-4">
-                 <h6> Committee Members </h6>
-               </div>
-             </div>
-           </div>
-         )}
-        </div>
-
-       
-       </div>
-       {/* {isOnclicknestednav && (
-         <div className="top  justify-content-center  align-items-center">
-           <div className="header">
-             <h6> Central Committees </h6>
-           </div>
-           <div className="header">
-             <h6> Regions Committees </h6>
-           </div>
-         </div>
-       )} */}
-
-       {/* directory heading */}
-       <div className="d-flex flex-row  bg-white align-items-center gap-1 p-2">
-       <Link href="/directory" className="text-decoration-none">
-         <div>
-           <h6 className="mb-0 text-center position-relative text-black ms-2">
-             Directory
-           </h6>
-         </div>
-       </Link>
-       </div>
-
-       {/* Documents heading */}
-         <div
-           onClick={handleOnclicknav2}
-           className="d-flex flex-row bg-white align-items-center gap-1"
-         >
-         
-         <Link href="/documents" className="text-decoration-none">
-         <div className="p-2">
-             <h6 className="mb-0 text-center position-relative text-black ms-2">
-             Documents
-             </h6>
-           </div>
-           </Link>
-           <div className="b-0 m-0 text-black">
-             {isOnclicknav2 ? (
-               <i class="bi bi-chevron-up b-0 m-0"></i>
-             ) : (
-               <i class="bi bi-chevron-down"></i>
-             )}
-           </div>
-         </div>
-         {isOnclicknav2 && (
-           <div>
-             <div
-               className="top mb-0 d-flex  header align-items-center"
-             >
-               <div className="p-2">
-                 <h6 className="ms-4"> FICAC Constitution  </h6>
-               </div>
+              {/* new commitees heading */}
+              <div className="d-flex flex-row  bg-white align-items-center gap-1 p-3">
+                <Link href="/ficac-committees" className="text-decoration-none">
+                  <div>
+                    <h5 className="mb-0 text-center position-relative text-black ms-2"
+                      style={{ fontSize: "18px" }}
+                    >
+                     Committees
+                    </h5>
+                  </div>
+                </Link>
               </div>
+
+
+              {/* directory heading */}
+              <div className="d-flex flex-row  bg-white align-items-center gap-1 p-3">
+                <Link href="/directory" className="text-decoration-none">
+                  <div>
+                    <h5 className="mb-0 text-center position-relative text-black ms-2"
+                      style={{ fontSize: "18px" }}
+                    >
+                      Directory
+                    </h5>
+                  </div>
+                </Link>
+              </div>
+
+              {/* Documents heading */}
               <div
-               className="top mb-0 d-flex  header align-items-center"
-             >
-               <div className="p-2">
-                 <h6 className="ms-4"> Member Constitution   </h6>
-               </div>
+                onClick={handleOnclicknav2}
+                className="d-flex flex-row bg-white align-items-center gap-1 p-3"
+              >
+
+                <Link href="/documents" className="text-decoration-none">
+                  <div>
+                    <h5 className="mb-0 text-center position-relative text-black ms-2"
+                      style={{ fontSize: "18px" }}
+                    >
+                      Documents
+                    </h5>
+                  </div>
+                </Link>
+                {/* <div className="b-0 m-0 text-black">
+                  {isOnclicknav2 ? (
+                    <i class="bi bi-chevron-up b-0 m-0"></i>
+                  ) : (
+                    <i class="bi bi-chevron-down"></i>
+                  )}
+                </div> */}
               </div>
-         </div>
-         )}
+              {/* {isOnclicknav2 && (
+                <div>
+                  <div
+                    className=" headerOffcanvas top mb-0 d-flex  header align-items-center"
+                  >
+                    <div className="p-2 pt-3">
+                      <h6 className="ms-4"
+                        style={{ fontSize: "16px" }}
+                      >
+                        FICAC Constitution
+                      </h6>
+                    </div>
+                  </div>
+                  <div
+                    className=" headerOffcanvas top mb-0 d-flex  header align-items-center"
+                  >
+                    <div className="p-2 pt-3">
+                      <h6 className="ms-4"
+                        style={{ fontSize: "16px" }}
+                      >
+                        Member Constitution
+                      </h6>
+                    </div>
+                  </div>
+                </div>
+              )} */}
 
-     {/* Event gallery */}
+              {/* Event gallery */}
 
-     <div className="d-flex flex-row  bg-white align-items-center gap-1 p-2">
-         <Link href="/gallery" className="text-decoration-none">
-         <div>
-           <h6 className="mb-0 text-center position-relative text-black ms-2">
-           Event Gallery
-           </h6>
-         </div>
-         </Link>
-       </div>
+              <div className="d-flex flex-row  bg-white align-items-center gap-1 p-3">
+                <Link href="/gallery" className="text-decoration-none">
+                  <div>
+                    <p className="mb-0 text-center position-relative text-black ms-2"
+                      style={{ fontSize: "18px" }}
+                    >
+                      Event Gallery
+                    </p>
+                  </div>
+                </Link>
+              </div>
 
-     </div>
-   </>
- )}
-</Container>
+            </div>
+          </>
+        )}
+      </Container>
+
 
 
     </>

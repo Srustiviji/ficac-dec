@@ -5,7 +5,7 @@ const FrontCommitteeBanner = () => {
 
     const background = {
         backgroundImage:
-            "url('/ficac_commitee.png')",
+            "url('/committees_banner.jpg')",
         height: "100vh",
         fontSize: "50px",
         backgroundSize: "cover",
