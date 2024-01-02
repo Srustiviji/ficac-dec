@@ -98,6 +98,12 @@ i.bi.bi-chevron-up {
 }
 
 
+.container-padding{
+  padding-left: 40px !important;
+  padding-right: 40px !important;
+}
+
+
 /* membership page */
 .membershiph3{
   color:#810100 ;

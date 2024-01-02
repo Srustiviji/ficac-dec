@@ -4,7 +4,7 @@ import { Container , Row ,Col} from 'react-bootstrap'
 const HistoryContent = () => {
   return (
     <>
-      <Container fluid className='p-0'>
+      {/* <Container fluid className='p-0'> */}
         <Container className='p-0'>
             <Col className='banner-text-container text-white'>
             <p className='mb-0'>
@@ -37,7 +37,7 @@ const HistoryContent = () => {
 
 
         </Container>
-      </Container>
+      {/* </Container> */}
     </>
   )
 }

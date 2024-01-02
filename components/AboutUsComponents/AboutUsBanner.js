@@ -5,17 +5,18 @@ const AboutUsBanner = () => {
 const background = {
     backgroundImage:
         "url('/about_us_banner.png')",
-    height: "100vh",
+    height: "90vh",
     // marginTop: "-70px",
     fontSize: "50px",
     backgroundSize: "cover",
     backgroundRepeat: "no-repeat",
+    width:"100%"
+
 };
   return (
-   <Container fluid>
-     <Container style={background} >
-
-</Container>
+   <Container fluid className='container-padding'>
+   <Container fluid style={background} >
+   </Container>
    </Container>
  
   )

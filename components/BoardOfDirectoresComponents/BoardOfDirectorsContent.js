@@ -14,7 +14,7 @@ const BoardOfDirectorsContent = () => {
             </Col>
 
             <Row>
-                <Col className='col-3 d-lg-flex d-none'></Col>
+                <Col className='col-5 d-lg-flex d-none'></Col>
             <Col className='px-3 py-3'>
             <p>
             The Board of Directors is the governing body of FICAC to set strategy, oversee management, and protect the interests of FICAC Members. It is responsible for the execution of the decisions of the General Assembly and for the management and supervision of the affairs of the Federation. 
