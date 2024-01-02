@@ -20,7 +20,7 @@ const Footer = () => {
           <Row className='d-flex flex-lg-row flex-column'>
             <Col className='text-lg-start text-center'>
               <p className='p-2 m-0 fs-6 text-lg-start text-center'>
-                Copyright 2023 ficacworld.org
+                Copyright 2024 ficacworld.org
               </p>
             </Col>
             <Col>

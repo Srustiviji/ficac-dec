@@ -64,7 +64,7 @@ const NewsList = () => {
                 </p>
                  </Col>
                 <Col className='mt-lg-3'>
-                <Link href={`/news/${post.slug}`} >
+                <Link href={`/news/${post.slug}`} target='_blank' >
                 <p 
                 className='rounded-2 py-2 px-4 px-lg-2 d-inline-block text-white' style={{backgroundColor:"#001C79"}}
                 >
