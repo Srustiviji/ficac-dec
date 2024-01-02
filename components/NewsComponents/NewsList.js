@@ -32,11 +32,12 @@ const NewsList = () => {
     })
 
   return (
+    <Container fluid>
 
-    <Container className=''>
+    <Container className='d-flex justify-content-center'>
     
 
-    <Row className='d-flex flex-lg-row flex-column mb-4 gap-5' >
+    <Row className='d-flex flex-lg-row flex-column mb-4 gap-5 ms-lg-5' >
     {data.map((post) => (
         <Col key={post.id}
          className='text-center d-flex flex-column align-self-stretch mt-lg-4 mt-3 shadow p-0 mb-5 bg-white rounded' 
@@ -57,8 +58,9 @@ const NewsList = () => {
                  <p
                 className='font12px mb-0 px-3'
                 style={{height:"80px", color:"#001C79"}}
-                 >
-                {post.acf.excerpt}
+                 
+                 dangerouslySetInnerHTML={{ __html: post.acf.excerpt }} >
+                
                 </p>
                  </Col>
                 <Col className='mt-lg-3'>
@@ -75,6 +77,7 @@ const NewsList = () => {
 
                 ))}
     </Row>
+    </Container>
     </Container>
     
   )

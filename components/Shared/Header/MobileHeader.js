@@ -117,12 +117,98 @@ const MobileHeader = () => {
               className="position-fixed top-0 bottom-0 end-0 w-100 h-100 gap-3"
               style={{ backgroundColor: "#001C79" }}
             >
-              <p className="text-white fs-4 align-content-right pt-2 d-flex justify-content-end" onClick={toggleMenuClickMobile}>
+              <p className="text-white fs-2 align-content-right pt-2 p-2 d-flex justify-content-end" onClick={toggleMenuClickMobile}>
                 <i class="bi bi-x-circle"></i>
               </p>
               {/* Left Side Menu */}
 
               {/* side nav bar */}
+
+              <div
+           onClick={handleOnclick}
+           className="d-flex flex-row  bg-white align-items-center gap-5 p-3"
+         >
+         
+         <Link href="/about" className="text-decoration-none">
+         <div className="">
+             <h5 className="mb-0 text-center position-relative text-black ms-2">
+             About
+             </h5>
+           </div>
+           </Link>
+           <div className="b-0 m-0 text-black">
+             {isOnclick ? (
+               <i class="bi bi-chevron-up b-0 m-0"></i>
+             ) : (
+               <i class="bi bi-chevron-down"></i>
+             )}
+           </div>
+         </div>
+         {isOnclick && (
+           <div>
+            <Link href="/about" className="text-decoration-none">
+           <div className="p-2 pt-3">
+           <h5 className="ms-4 text-white">Who is FICAC </h5>
+           </div>
+           </Link>
+           <Link href="/about/history/" className="text-decoration-none">
+           <div className="p-2">
+           <h5 className="ms-4 text-white">History</h5>
+           </div>
+           </Link>
+           <Link href="/about/mission-vision/" className="text-decoration-none">
+           <div className="p-2">
+           <h5 className="ms-4 text-white">Misssion & Vission</h5>
+           </div>
+           </Link>
+           <Link href="/about/executive/" className="text-decoration-none">
+           <div className="p-2">
+           <h5 className="ms-4 text-white">Leadership</h5>
+           </div>
+           </Link>
+               
+              </div>
+         )}
+
+                  {/* NEWS heading heading */}
+                  <div className="d-flex flex-row  bg-white align-items-center gap-1 p-3">
+                <Link href="/news" className="text-decoration-none">
+                  <div>
+                    <h5 className="mb-0 text-center position-relative text-black ms-2"
+                      style={{ fontSize: "18px" }}
+                    >
+                     FICAC News
+                    </h5>
+                  </div>
+                </Link>
+              </div>
+
+
+                 {/* Menbership heading heading */}
+                 <div className="d-flex flex-row  bg-white align-items-center gap-1 p-3">
+                <Link href="/membership" className="text-decoration-none">
+                  <div>
+                    <h5 className="mb-0 text-center position-relative text-black ms-2"
+                      style={{ fontSize: "18px" }}
+                    >
+                     Membership
+                    </h5>
+                  </div>
+                </Link>
+              </div>
+
+              {/* Contact us heading */}
+              <div className="d-flex flex-row  bg-white align-items-center gap-1 p-3">
+                <Link href="/contact" className="text-decoration-none">
+                  <div>
+                    <h5 className="mb-0 text-center position-relative text-black ms-2"
+                      style={{ fontSize: "18px" }}
+                    >
+                     Contact Us
+                    </h5>
+                  </div>
+                </Link>
+              </div>
 
               {/* <div className="">
                 <div

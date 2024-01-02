@@ -141,12 +141,12 @@ const DesktopHeader = () => {
                   </div>
                   {isOnclick && (
                     <div
-                      className="top mb-0 position-absolute "
+                      className="top mb-0 position-absolute pb-0 "
                       style={{ backgroundColor: "#001C79" }}
                     >
                       <div className="header">
                         <Link href="/about" className="text-decoration-none">
-                          <h6 className="text-white header-text"
+                          <h6 className="text-white header-text pb-0"
                             style={{ fontSize: "18px" }}
                           >
                             Who is FICAC
