@@ -39,7 +39,7 @@ const Posts = ({ slug }) => {
       >
         {data.map((post) => (
           <div key={post.id}
-            className='p-5 shadow-sm col-lg-8 position-relative'
+            className='p-5 shadow-sm col-lg-10 position-relative'
           >
             <div>
               <div
