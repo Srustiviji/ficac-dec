@@ -58,7 +58,7 @@ const Posts = ({ slug }) => {
               className='py-4'
               dangerouslySetInnerHTML={{ __html: post.content.rendered }}
             />
-            <div className=''>
+            <div className='py-4'>
               <Link href="/news">
                 <Button
                   className='rounded-2 py-2 px-3 px-lg-2 d-inline-block text-white'
