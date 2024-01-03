@@ -102,6 +102,8 @@ const BoardOfHonoraryList = () => {
           <Modal.Body>
             <p>{selectedPost?.acf.name}</p>
             <p>{selectedPost?.acf.honorary}</p>
+            <div dangerouslySetInnerHTML={{ __html: selectedPost?.content.rendered }} />
+
             {/* Add more content here as needed */}
           </Modal.Body>
         </div>

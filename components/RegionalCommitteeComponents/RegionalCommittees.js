@@ -72,7 +72,7 @@ const RegionalCommittees = () => {
                             <Col className='p-0 px-0 px-lg-3 d-flex flex-column flex-wrap justify-content-center'>
                                 <div className='d-flex flex-column justify-content-center'>
                                     <p
-                                        className='text-white'
+                                        className='text-white fs-5'
                                         dangerouslySetInnerHTML={{ __html: post.title.rendered }}
                                     />
                                 </div>

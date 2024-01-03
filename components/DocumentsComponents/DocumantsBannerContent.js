@@ -12,7 +12,7 @@ const DocumantsBannerContent = () => {
         <p
         style={{fontSize:"30px", fontWeight:"lighter"}}
         >
-           FICAC constitution
+           FICAC Constitution
         </p>
            </Col>
         </Container>

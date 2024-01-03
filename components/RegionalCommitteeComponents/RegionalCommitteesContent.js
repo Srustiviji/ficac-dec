@@ -6,9 +6,9 @@ const RegionalCommitteesContent = () => {
     <Container fluid>
        <Container>
         <Row>
-         <Col className='col-5 d-lg-block d-none'>
+         <Col className='col-lg-5 d-flex d-lg-block d-none'>
          </Col>
-         <Col className='col-7'>
+         <Col className='col-lg-7 py-2 px-lg-0 px-2 '>
             <p>
             The functions of the Regional committees will be similar to those of the Federation overall and they are as follows:
             </p>

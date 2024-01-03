@@ -86,8 +86,8 @@ const HomeLatestNews = () => {
           dotListClass="custom-dot-list-style"
           itemClass="carousel-item-padding-40-px"
           customDotListClass='custom-dot-list-style'
-          customDotStyle={customDotStyle}
-          customDotListStyle={customDotListStyle}
+          // customDotStyle={customDotStyle}
+          // customDotListStyle={customDotListStyle}
 
         >
 

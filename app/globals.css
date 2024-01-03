@@ -85,7 +85,7 @@ i.bi.bi-chevron-up {
   font-weight: bold;
   /* width: 29%; */
   display: inline-block;
-  margin-left:60px;
+  margin-left:55px;
 }
 
 @media(max-width:767px){
@@ -94,6 +94,8 @@ i.bi.bi-chevron-up {
     width: 100%;
     font-size: 35px;
     margin-left: 0px;
+   line-height: 40px;
+
   }
 }
 
@@ -101,6 +103,13 @@ i.bi.bi-chevron-up {
 .container-padding{
   padding-left: 40px !important;
   padding-right: 40px !important;
+}
+
+@media(max-width:767px){
+  .container-padding{
+    padding-left: 0px;
+    padding-right: 0px;
+  }
 }
 
 

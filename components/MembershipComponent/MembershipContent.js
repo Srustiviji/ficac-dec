@@ -22,7 +22,7 @@ const MembershipContent = () => {
 
 
             {/* content of application  */}
-            <Col className='px-3 mt-4'>
+            <Col className=' px-lg-5 px-3 mt-4'>
             <h3 className='membershiph3'>Application And Membership Procedures</h3>
             <p>
             Summarized below are the procedures that a Consular Corps or Association or a Regional Association is asked to follow to become a Member of the FICAC aisbl, and the general procedres for remaining a Member Corps/Association or Regional Association of FICAC
@@ -50,7 +50,7 @@ const MembershipContent = () => {
             </p>
             </Col>
             {/* second part */}
-            <Col className='px-3 '>
+            <Col className='px-3 px-lg-5 '>
             <p className='p-0 m-0'>
             <b>FICAC aisbl</b>
             </p>
@@ -93,7 +93,7 @@ const MembershipContent = () => {
             </Col>
             {/* 3 section */}
          
-         <Col className='px-3'>
+         <Col className='px-3 px-lg-5'>
          <p>
          The following documents:
          </p>
@@ -112,7 +112,7 @@ const MembershipContent = () => {
          </Col>
 
          {/* 4 section */}
-         <Col className='px-3'>
+         <Col className='px-3 px-lg-5'>
          <h4 className='membershippara'>
          Application Procedure
          </h4>

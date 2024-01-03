@@ -13,7 +13,7 @@ const ContactUsContent = () => {
         </p>
     </Col>
 
-    <Row className='py-5 px-5'>
+    <Row className='py-5 px-lg-5 px-3'>
         <Col className='col-5 d-lg-flex d-none'></Col>
     <Col className='px-3 py-2 text-black'>
     <h3>

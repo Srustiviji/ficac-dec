@@ -17,7 +17,7 @@ const MissionVisionContent = () => {
 
 
 
-        <Row className='py-4 px-5'>  
+        <Row className='py-4 px-lg-5 px-3'>  
         <Col className='d-lg-block d-none col-lg-4'></Col> 
         <Col>
          <p>

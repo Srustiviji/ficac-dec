@@ -6,7 +6,7 @@ const HistoryContentpart_2 = () => {
     <>
     <Container fluid>
         <Container>
-            <Row className='px-5'>
+            <Row className='px-lg-5 px-3'>
                 <p className='px-lg-4'>
                 FICAC is now truly a global network of Consular Corps and Associations, serving to support and improve the status, legitimacy and effectiveness of all Consular Corps in all sending and receiving States. Its motto is: “BRIDGING THE WORLD”.
                 </p>
@@ -16,8 +16,8 @@ const HistoryContentpart_2 = () => {
                     </b>
                 </p>
             </Row>
-            <Row className='px-5'>
-                <ul className='px-5'>
+            <Row className='px-lg-5 px-3'>
+                <ul className='px-lg-5'>
                     <li>
                         <p>
                         The Most Honourable P.J. Patterson, Governor General of Jamaica

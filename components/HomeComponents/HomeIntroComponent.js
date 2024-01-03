@@ -9,7 +9,7 @@ const HomeIntroComponent = () => {
         <Col className=' col-lg-4 col-12 d-flex justify-content-end ms-lg-4'>
          {/* <Image src="/intro_about_ficac.png" alt="aboutus" fluid  style={{ marginTop:"-30px"}}/> */}
         </Col>
-        <Col className='p-5'>
+        <Col className='p-lg-5 p-4'>
          <h2 style={{ color: "#810100" }} >
         <b> About FICAC </b>
          </h2>

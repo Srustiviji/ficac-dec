@@ -18,12 +18,12 @@ const AboutUsContent = () => {
         </Col>
 
         {/* content */}
-        <Row className="py-4">
+        <Row className="py-4 px-lg-5 ms-lg-1">
           <Col className="d-flex  justify-content-center justify-content-lg-end align-content-lg-end py-lg-4" lg={3}>
             <Image src="/about_us_image.png" alt="aboutus" fluid />
           </Col>
           <Col>
-          <Row className="py-4 px-5">
+          <Row className="py-4 px-lg-5 px-3">
             <p>
               FICAC was established in Copenhagen in October 1982. It was born
               of the necessity to bring together Consular Associations or Corps

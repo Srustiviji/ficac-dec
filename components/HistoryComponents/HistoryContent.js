@@ -17,7 +17,7 @@ const HistoryContent = () => {
 
 
 
-        <Row className='pt-4 pb-2 px-5'>   
+        <Row className='pt-4 pb-2 px-lg-5 px-3'>   
         <p className='px-lg-4'>
          Fédération Internationale des Corps et Associations Consulaires – “FICAC”, also known as the World Federation of Consuls, was founded in Copenhagen on 2 October 1982 by a small group of visionaries led by Consul General Vagn Jespersen of Denmark. This body gave Consuls of the world a much-needed forum to share experiences and co-ordinate efforts to enhance their status and effectiveness and to bring together Consular Associations and Corps from all around the globe. FICAC is an International Non-Profit Association (aisbl) established in Belgium by a Royal Decree. Agreements have also been signed with more than 20 Universities around the world to collaborate in the fields of diplomacy and peace and conflict resolution studies.</p>
         

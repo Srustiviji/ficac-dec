@@ -14,7 +14,7 @@ const DirectoryContent = () => {
             </Col>
         
 
-        <Row  className='px-5 py-4'>
+        <Row  className='px-lg-5 px-3 py-4'>
              <Col className=' col-3 d-lg-flex d-none p-o'></Col>
              <Col>
              <p>

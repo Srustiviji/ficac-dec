@@ -89,7 +89,9 @@ const MobileHeader = () => {
         <Container>
           <Row>
             <Col className="col-lg-4 d-flex flex-column align-content-center py-3 ">
+            <Link href="/" className="text-decoration-none">
               <Image src="/FICAC Logo.svg" alt="logo" width={100} />
+              </Link>
             </Col>
 
             <Col className="d-flex flex-wrap align-content-center justify-content-end">

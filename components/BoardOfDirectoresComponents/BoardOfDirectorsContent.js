@@ -13,7 +13,7 @@ const BoardOfDirectorsContent = () => {
                 </p>
             </Col>
 
-            <Row>
+            <Row className='px-3'>
                 <Col className='col-5 d-lg-flex d-none'></Col>
             <Col className='px-3 py-3'>
             <p>
