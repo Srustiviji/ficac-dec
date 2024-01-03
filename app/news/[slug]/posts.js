@@ -41,7 +41,7 @@ const Posts = ({ slug }) => {
           <div key={post.id}
             className='px-lg-3 shadow-sm col-lg-12 position-relative'
           >
-            <div className='pt-3'>
+            <div className='pt-5'>
               <div
                 style={{ fontSize: "25px", fontWeight: "bold", color: "#741B1B" }}
               >
