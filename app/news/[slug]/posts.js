@@ -39,7 +39,7 @@ const Posts = ({ slug }) => {
       >
         {data.map((post) => (
           <div key={post.id}
-            className='p-5 shadow-sm col-lg-8 position-relative'
+            className='px-lg-3 shadow-sm col-lg-12 position-relative'
           >
             <div>
               <div
@@ -61,7 +61,7 @@ const Posts = ({ slug }) => {
             <div className=''>
               <Link href="/news">
                 <Button
-                  className='rounded-2 py-2 px-5 px-lg-2 d-inline-block text-white'
+                  className='rounded-2 py-2 px-3 px-lg-2 d-inline-block text-white'
                   style={{ backgroundColor: "#001C79" }}
                 >
                   Go Back
