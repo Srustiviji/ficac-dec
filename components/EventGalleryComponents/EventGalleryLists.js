@@ -6,7 +6,7 @@ import { Container, Image, Row, Col } from 'react-bootstrap';
 const EventGalleryLists = () => {
     const [data, setData] = useState([]);
 
-    const Acf_URL = 'https://ficac.ivistaz.co/wp-json/wp/v2/events_gallery?_embed?slug=latin-america-conference-honduras';
+    const Acf_URL = 'https://ficac.ivistaz.co/wp-json/wp/v2/events_gallery?_embed';
 
     const fetchPosts = async () => {
         try {

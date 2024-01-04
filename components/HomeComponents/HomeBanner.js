@@ -12,7 +12,7 @@ const HomeBanner = () => {
             backgroundSize: "cover",
             backgroundRepeat: "no-repeat",
             width:"100%",
-            backgroundPosition:"center center"
+            // backgroundPosition:"center center"
             
           
         }
