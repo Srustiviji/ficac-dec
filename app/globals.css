@@ -88,6 +88,8 @@ i.bi.bi-chevron-up {
   margin-left:55px;
 }
 
+
+
 @media(max-width:767px){
   .banner-text-container{
     margin-top: 0px;
@@ -97,6 +99,22 @@ i.bi.bi-chevron-up {
    line-height: 40px;
 
   }
+}
+
+.banner-text-container-directors{
+  background-color: #810100;
+  margin-top: -70px;
+  font-size: 50px;
+  line-height: 60px;
+  padding: 40px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  padding-left: 100px;
+  padding-right: 100px;
+  font-weight: bold;
+  width: 29%;
+  display: inline-block;
+  margin-left:55px;
 }
 
 

@@ -5,7 +5,7 @@ const BoardOfDirectorsContent = () => {
   return (
 
       <Container className='p-0'>
-            <Col className='banner-text-container text-white px-5 '>
+            <Col className='banner-text-container-directors text-white px-5 '>
             <p className='mb-0'>
             Board of  
             <br />

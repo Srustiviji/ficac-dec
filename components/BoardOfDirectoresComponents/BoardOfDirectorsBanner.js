@@ -5,10 +5,10 @@ const HistoryBanner = () => {
 
     const background = {
         backgroundImage:
-            "url('/boardof_directors_banner.png')",
-        height: "90vh",
+            "url('/board_of_directors.jpg')",
+        height: "75vh",
         fontSize: "50px",
-        backgroundSize: " 1226px 769px",
+        backgroundSize: "contain",
         backgroundRepeat: "no-repeat",
         width:"100%"
     }
