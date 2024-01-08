@@ -8,7 +8,7 @@ const HistoryBanner = () => {
             "url('/boardof_directors_banner.png')",
         height: "90vh",
         fontSize: "50px",
-        backgroundSize: "cover",
+        backgroundSize: " 1226px 769px",
         backgroundRepeat: "no-repeat",
         width:"100%"
     }
