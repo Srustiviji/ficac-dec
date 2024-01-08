@@ -14,7 +14,7 @@ const CentralCommitteesBanner = () => {
 
   return (
 
-    <Container fluid className='container-padding'>
+    <Container fluid className='container-padding ' style={{padding: '80px'}}>
    <Container fluid style={background} >
    </Container>
    </Container>

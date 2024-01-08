@@ -14,6 +14,7 @@ const RegionCommitteeBanner = () => {
 
   return (
 
+   
     <Container fluid className='container-padding'>
     <Container fluid style={background} >
     </Container>

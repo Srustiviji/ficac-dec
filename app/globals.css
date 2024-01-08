@@ -101,8 +101,8 @@ i.bi.bi-chevron-up {
 
 
 .container-padding{
-  padding-left: 40px !important;
-  padding-right: 40px !important;
+  padding-left: 80px !important;
+  padding-right: 80px !important;
 }
 
 @media(max-width:767px){

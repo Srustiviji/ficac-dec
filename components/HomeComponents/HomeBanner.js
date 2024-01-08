@@ -9,7 +9,7 @@ const HomeBanner = () => {
                 "url('/home_banner.png')",
             height: "90vh",
             fontSize: "50px",
-            backgroundSize: "cover",
+            backgroundSize: "contain",
             backgroundRepeat: "no-repeat",
             width:"100%",
             // backgroundPosition:"center center"

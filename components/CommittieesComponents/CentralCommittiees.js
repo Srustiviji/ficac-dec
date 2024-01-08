@@ -11,7 +11,7 @@ const CentralCommittiees = () => {
 
   const background = {
     backgroundImage: "url('/central_banner.png')",
-    height: "100vh",
+    height: "90vh",
     fontSize: "50px",
     backgroundSize: "cover",
     backgroundRepeat: "no-repeat",
@@ -52,7 +52,7 @@ const CentralCommittiees = () => {
 
   return (
     <>
-      <Container fluid className="p-0">
+      <Container fluid className="container-padding">
         <Container fluid className="p-0" style={background}></Container>
         <Container>
           <Col className="w-100 m-0"></Col>

@@ -5,7 +5,7 @@ const FrontCommitteeBanner = () => {
 
     const background = {
         backgroundImage:
-            "url('/committees_banner.jpg')",
+            "url('/commitees.png')",
         height: "90vh",
         fontSize: "50px",
         backgroundSize: "cover",
