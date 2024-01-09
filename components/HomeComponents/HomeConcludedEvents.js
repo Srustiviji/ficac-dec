@@ -112,14 +112,19 @@ const HomeConcludedEvents = () => {
                 </Col>
                 <Col className="mt-lg-3">
                   {/* <Link > */}
+                  <a href={items.acf.pdf_file.url} target="_blank" rel="noopener noreferrer">
+
                   <p
                     className="rounded-2 py-2 px-4 px-lg-2 d-inline-block text-white"
                     style={{ backgroundColor: "#001C79" }}
                   >
                     Read more
                   </p>
+                  </a>
                   {/* </Link> */}
                 </Col>
+
+                
               
               </Col>
               </Row>
