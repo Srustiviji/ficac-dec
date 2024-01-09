@@ -25,6 +25,7 @@ const HomeConcludedEvents = () => {
     fetchData();
   }, []);
 
+  
   const responsive = {
     desktop: {
       breakpoint: { max: 3000, min: 1024 },
