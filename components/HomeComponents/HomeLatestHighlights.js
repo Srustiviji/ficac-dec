@@ -15,7 +15,7 @@ const HomeLatestHighlights = () => {
       }
       const postsData = await result.json();
       setIsData(postsData);  // Corrected this line
-      console.log(postsData);
+      // console.log(postsData);
     } catch (error) {
       console.error('Error fetching posts', error);
     }

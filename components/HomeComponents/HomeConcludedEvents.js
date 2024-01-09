@@ -15,12 +15,12 @@ const HomeConcludedEvents = () => {
       );
       result = await result.json();
       setIsData(result);
-      console.log(result);
+      // console.log(result);
     } catch {
       console.log("Error fetching data");
     }
   };
-
+// 
   useEffect(() => {
     fetchData();
   }, []);
@@ -113,7 +113,7 @@ const HomeConcludedEvents = () => {
                 </Col>
                 <Col className="mt-lg-3">
                   {/* <Link > */}
-                  <a href={items.acf.pdf_file.url} target="_blank" rel="noopener noreferrer">
+                  <a href={post.acf.url} target="_blank" rel="noopener noreferrer">
 
                   <p
                     className="rounded-2 py-2 px-4 px-lg-2 d-inline-block text-white"

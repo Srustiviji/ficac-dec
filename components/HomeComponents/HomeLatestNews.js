@@ -35,7 +35,7 @@ const HomeLatestNews = () => {
       let result = await fetch('https://ficac.ivistaz.co/wp-json/wp/v2/posts?categories=11&_embed');
       result = await result.json();
       setIsData(result);
-      console.log(result);
+      // console.log(result);
     } catch {
       console.log('Error fetching data');
     }
