@@ -6,10 +6,10 @@ const HomeIntroComponent = () => {
     <>
     <Container className='pb-0'>
       <Row className='d-lg-row'>
-        <Col className=' col-lg-4 col-12 d-flex justify-content-end ms-lg-4 pt-5'>
+        <Col className=' col-lg-5 col-12 d-flex justify-content-end ms-lg-4 pt-5'>
          <Image src="/UN Official Visit .jpeg" alt="aboutus" 
         //  fluid 
-          style={{height:"290px" , width:"270px"}}
+          style={{height:"290px" , width:"400px"}}
           />
         </Col>
         <Col className='p-lg-5 p-4'>
