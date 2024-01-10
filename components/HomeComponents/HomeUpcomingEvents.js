@@ -47,10 +47,10 @@ const HomeUpcomingEvents = () => {
 
 
 
-      <Container className="pt-2 pb-2">
-        <Row className='pb-4 mt-4'>
+      <Container className="pt-0 pb-0 pt-0">
+        <Row className='pb-0'>
           <h3
-            className="fs-1 d-flex justify-content-center"
+            className="fs-1 d-flex justify-content-center pb-0"
             style={{ color: "#810100" }}
           >
             Upcoming Events

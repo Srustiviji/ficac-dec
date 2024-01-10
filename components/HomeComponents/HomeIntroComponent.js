@@ -4,10 +4,13 @@ import { Container , Row , Col , Image } from 'react-bootstrap'
 const HomeIntroComponent = () => {
   return (
     <>
-    <Container>
+    <Container className='pb-0'>
       <Row className='d-lg-row'>
-        <Col className=' col-lg-4 col-12 d-flex justify-content-end ms-lg-4'>
-         {/* <Image src="/intro_about_ficac.png" alt="aboutus" fluid  style={{ marginTop:"-30px"}}/> */}
+        <Col className=' col-lg-4 col-12 d-flex justify-content-end ms-lg-4 pt-5'>
+         <Image src="/UN Official Visit .jpeg" alt="aboutus" 
+        //  fluid 
+          style={{height:"290px" , width:"270px"}}
+          />
         </Col>
         <Col className='p-lg-5 p-4'>
          <h2 style={{ color: "#810100" }} >
