@@ -7,7 +7,7 @@ const HomeIntroComponent = () => {
     <Container className='pb-0'>
       <Row className='d-lg-row'>
         <Col className=' col-lg-5 col-12 d-flex justify-content-end ms-lg-4 pt-5'>
-         <Image src="/UN Official Visit .jpeg" alt="aboutus" 
+         <Image src="/aboutus_image.png" alt="aboutus" 
         //  fluid 
           style={{height:"290px" , width:"400px"}}
           />
