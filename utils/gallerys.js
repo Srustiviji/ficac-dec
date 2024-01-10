@@ -99,7 +99,7 @@ const Post = ({ slug }) => {
                     ))}
                   </Row>
 
-                  <h1 className="fw-bold" style={{color:"#810400"}} dangerouslySetInnerHTML={{ __html: post.acf.title_2}}>
+                  <h1 className="fw-bold pt-5" style={{color:"#810400"}} dangerouslySetInnerHTML={{ __html: post.acf.title_2}}>
 </h1>
                   <Row className='d-flex flex-lg-row flex-column flex-wrap'>
                     {post.acf.photo_gallery.gallery_2[1].map((photo, index) => (
@@ -133,7 +133,7 @@ const Post = ({ slug }) => {
                   </Row>
 
                   {/* new */}
-                  <h1 className="fw-bold" style={{color:"#810400"}} dangerouslySetInnerHTML={{ __html: post.acf.title_3}}>
+                  <h1 className="fw-bold pt-5" style={{color:"#810400"}} dangerouslySetInnerHTML={{ __html: post.acf.title_3}}>
 </h1>
                   <Row className='d-flex flex-lg-row flex-column flex-wrap'>
                     {post.acf.photo_gallery.gallery_3[2].map((photo, index) => (
@@ -166,7 +166,7 @@ const Post = ({ slug }) => {
                     ))}
                   </Row>
 
-                  <h1 className="fw-bold" style={{color:"#810400"}} dangerouslySetInnerHTML={{ __html: post.acf.title_4}}>
+                  <h1 className="fw-bold pt-5" style={{color:"#810400"}} dangerouslySetInnerHTML={{ __html: post.acf.title_4}}>
 </h1>
                   <Row className='d-flex flex-lg-row flex-column flex-wrap'>
                     {post.acf.photo_gallery.gallery_4[3].map((photo, index) => (
@@ -199,7 +199,7 @@ const Post = ({ slug }) => {
                     ))}
                   </Row>
 
-                  <h1 className="fw-bold" style={{color:"#810400"}} dangerouslySetInnerHTML={{ __html: post.acf.title_5}}>
+                  <h1 className="fw-bold pt-5" style={{color:"#810400"}} dangerouslySetInnerHTML={{ __html: post.acf.title_5}}>
 </h1>
                   <Row className='d-flex flex-lg-row flex-column flex-wrap'>
                     {post.acf.photo_gallery.gallery_5[4].map((photo, index) => (
